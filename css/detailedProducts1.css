@@ -1,0 +1,83 @@
+/* Container for product description */
+.productdescription {
+    margin-top: 20px;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Tabs Navigation */
+  .tabs {
+    display: flex;
+    border-bottom: 2px solid #e0e0e0;
+    margin-bottom: 20px;
+  }
+  
+  .tab-link {
+    padding: 10px 20px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+  }
+  
+  .tab-link.active {
+    color: green;
+    border-bottom: 2px solid green;
+  }
+  
+  .tab-link:hover {
+    color: darkgreen;
+  }
+  
+  /* Tab Content */
+  .tab-content {
+    display: none;
+  }
+  
+  .tab-content.active {
+    display: block;
+  }
+  
+  .tab-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .tab-content h3 {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  
+  .tab-content p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  table th,
+  table td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+  }
+  
+  table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    width: 40%;
+  }
+table td {
+    background-color: #fff;
+  }
+  

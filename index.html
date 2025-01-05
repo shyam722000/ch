@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <link rel="stylesheet" href="./css/index.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+              rel="stylesheet">
+       <script src="./Js/index.js"></script>
+
+</head>
+
+<body>
+       <script>
+              document.addEventListener("DOMContentLoaded", () => {
+                     const navLinks = document.querySelector(".Nav_links ul");
+                     const toggleButton = document.querySelector(".Nav_toggle");
+
+                     toggleButton.addEventListener("click", () => {
+                            navLinks.classList.toggle("show");
+                     });
+              });
+
+       </script>
+       
+
+
+
+       <!-- landbar -->
+       <div>
+              <div class='main-navLang'>
+              </div>
+       </div>
+
+
+
+
+
+       <!-- navBaar -->
+       <nav class="Nav_container">
+              <div class="Nav_logo">
+                     <img src="./logo1.png" alt="Logo">
+              </div>
+              <div class="Nav_toggle">
+                     <span>&#9776;</span>
+              </div>
+              <div class="Nav_links">
+                     <ul>
+                            <li class="Nav_dropdown">
+                                   <a href="#" class="Nav_dropbtn">Servers</a>
+                                   <div class="Nav_dropdown-content">
+                                          <a onclick="navigateToProducts('Rackmount')">Rackmount </a>
+                                          <a onclick="navigateToProducts('Storage Servers')">Storage Servers</a>
+                                          <a onclick="navigateToProducts('Liquid Cooling Servers')">Liquid Cooling Servers</a>
+                                          <a onclick="navigateToProducts('ower Servers and Workstations')">Tower Servers and Workstations</a>
+                                   </div>
+                            </li>
+                            <li class="Nav_dropdown">
+                                   <a href="#" class="Nav_dropbtn">Components</a>
+                                   <div class="Nav_dropdown-content">
+                                          <a onclick="navigateToComponents('Motherboard')">Rackmount </a>
+                                          <a onclick="navigateToComponents('Processors')">Storage Servers</a>
+                                          <a onclick="navigateToComponents('Memory')">Liquid Cooling Servers</a>
+                                          <a onclick="navigateToComponents('Graphics card')">Tower Servers and Workstations</a>
+                                   </div>
+                            </li>
+                            <li class="Nav_dropdown">
+                                   <a href="#" class="Nav_dropbtn">Solutions</a>
+                                   <div class="Nav_dropdown-content">
+                                          <a onclick="navigateToProducts('Storage Servers')">Storage</a>
+                                          <a href="#">Cloud Solutions</a>
+                                          <a onclick="navigateToProducts('Liquid Cooling Servers')">Liquid Cooling Servers</a>
+                                   </div>
+                            </li>
+                            <li><a href="./About.html">About</a></li>
+                            <li><a href="./Contact.html">Contact</a></li>
+                     </ul>
+              </div>
+       </nav>
+
+
+       <!-- home slides -->
+
+       <div class="main-homepitcure">
+              <div class="sub-homepicture">
+                     <img class="home-pic" src="./bg4.jpg" alt="back image">
+                     <div class="overlay-text">
+                            <h1>Welcome to Server Factory</h1>
+                            <p>Your One-Stop Solution for High-Performance Servers, Components, and Custom IT Solutions.
+                            </p>
+                            <p>From powerful rackmount servers to cutting-edge liquid cooling systems, we design
+                                   technology to keep your business ahead of the curve.</p>
+                            <button class="learn-more-btn">Learn More</button>
+                     </div>
+              </div>
+       </div>
+
+
+      
+
+
+       <!-- feuturedProduct -->
+       <div class="fc-main">
+              <div class="fc-header">
+                     Featured Products
+              </div>
+              <div class="fc-sub">
+                     <div class="fc-product" onclick="navigateToProducts('Storage Solutions')">
+                      <div class="fc-product-content" >
+                          <img src="./assets/storage350x200-01.png" alt="Product 1" >
+                          <div class="fc-product-name">Storage Solutions</div>
+                      </div>
+                      <div class="fc-product-description">
+                          High-performance storage solutions that are based on Supermicro hardware. Supermicro is a well-known brand in the technology industry, and they are known for providing quality hardware solutions for businesses and individuals.
+                      </div>
+                  </div>
+                  <div class="fc-product" onclick="navigateToProducts('rackmount')">
+                     <div class="fc-product-content" >
+                         <img src="./assets/cat_assets/rack350x200-01-01.png" alt="Product 1">
+                         <div class="fc-product-name">Rackmount Solutions</div>
+                     </div>
+                     <div class="fc-product-description">
+                            High-density rackmount solutions. Rackmount solutions are often used in data centers and other large-scale computing environments where space is at a premium.
+                     </div>
+                 </div>
+                 <div class="fc-product" onclick="navigateToProducts('IoTSolutions')">
+                     <div class="fc-product-content">
+                         <img src="./assets/cat_assets/iottest-01.jpeg" alt="Product 1">
+                         <div class="fc-product-name">Edge & IoT Solutions</div>
+                     </div>
+                     <div class="fc-product-description">
+                            Edge computing and IoT solutions. These solutions are designed to be reliable and scalable, making them ideal for businesses that need to process large amounts of data quickly and efficiently.
+                            </div>
+                 </div>
+                 <div class="fc-product" onclick="navigateToProducts('Workstations')" >
+                     <div class="fc-product-content">
+                         <img src="./assets/cat_assets/workstation350x200-01.png"  alt="Product 1">
+                         <div class="fc-product-name">Workstations</div>
+                     </div>
+                     <div class="fc-product-description">
+                     
+                            Powerful workstations. Workstations are high-performance desktop computers that are often used by professionals who need to run demanding applications such as video editing, 3D modeling, and scientific computing.
+                     </div>
+                     </div>
+                 <div class="fc-product" onclick="navigateToProducts('Storage Solutions')">
+                     <div class="fc-product-content">
+                         <img src="./assets/storage350x200-01.png" alt="Product 1">
+                         <div class="fc-product-name">Storage Solutions</div>
+                     </div>
+                     <div class="fc-product-description" >
+                         High-performance storage solutions that are based on Supermicro hardware. Supermicro is a well-known brand in the technology industry, and they are known for providing quality hardware solutions for businesses and individuals.
+                     </div>
+                 </div>
+                 
+              </div>
+              </div>
+       </div>
+
+       <!-- featured product end -->
+
+
+
+
+       <!-- ads -->
+       <div class="ad-main">
+              <div class="ad-sub">
+                     <div class="ad-s">
+                            <img class="ad-image" src="./assets/image.png" alt="">
+                            <div class="ad-div">
+                                   <p class="ad-p">Special Offer on SSDs!</p>
+                                   <p class="ad-c">Get the latest high-performance SSDs at unbeatable prices.<br>
+                                          Limited time offer.</p>
+                            </div>
+                     </div>
+
+                     <div class="ad-s-1">
+                            <img class="ad-image" src="./assets/image.png" alt="">
+                            <div class="ad-div">
+                                   <p class="ad-p">Special Offer on SSDs!</p>
+                                   <p class="ad-c">Get the latest high-performance SSDs at unbeatable prices.<br>
+                                          Limited time offer.</p>
+                            </div>
+
+                     </div>
+              </div>
+       </div>
+
+
+       <!-- popular product -->
+
+       <div class="popular-main">
+              <div class="popular-header">
+                     <p>WHAT WE SPECIALSED IN</p>
+              </div>
+              <div class="popular-body1">
+                     <div class="popular-product1">
+                            <div class="popular-content">
+                                   <img src="./assets/Specialized Images/cloud.png" alt="">
+                                   <p class="head-pop">Cloud Storage</p>
+                                   <p>We offer a wide variety of highly flexible and scalable Supermicro storage
+                                          solutions</p>
+                            </div>
+
+
+                     </div>
+                     <div class="popular-product2">
+                            <div class="popular-content">
+                                   <img src="./assets/Specialized Images/Converge Infrastructure.png" alt="">
+                                   <p class="head-pop">Coverage Infrastructure</p>
+                                   <p>Supermicro offers a range of servers optimised for Hyper-Converged Infrastructure
+                                          (HCI)</p>
+                            </div>
+
+                     </div>
+                     <div class="popular-product3">
+                            <div class="popular-content">
+                                   <img src="./assets/Specialized Images/big-data.png" alt="">
+                                   <p class="head-pop">Big Data</p>
+                                   <p>We supply various servers designed to process and analyse the vast amounts of data
+                                          being generated constantly</p>
+                            </div>
+                     </div>
+              </div>
+              <div class="popular-body2">
+                     <div class="popular-product7">
+                            <div class="popular-content">
+                                   <img src="./assets/Specialized Images/high-performance.png" alt="">
+                                   <p class="head-pop">HPC</p>
+                                   <p>HPC solutions are designed and optimised to handle various demanding workloads</p>
+                            </div>
+                     </div>
+                     <div class="popular-product8">
+                            <div class="popular-content">
+                                   <img src="./assets/Specialized Images/enterprise.png" alt="">
+                                   <p class="head-pop">Enterprice</p>
+                                   <p>HPC solutions are designed and optimised to handle various demanding workloads</p>
+                            </div>
+
+                     </div>
+                     <div class="popular-product9">
+                            <div class="popular-content">
+                                   <img src="./assets/Specialized Images/internet-of-things.png" alt="">
+                                   <p class="head-pop">IOT</p>
+                                   <p>HPC solutions are designed and optimised to handle various demanding workloads</p>
+                            </div>
+
+                     </div>
+              </div>
+       </div>
+
+<!-- ====super micro sectiom -->
+       <div class="supermicro-section">
+              <div class="supermicro-overlay">
+                <div class="supermicro-content">
+                  <h1>Why we use Supermicro</h1>
+                  <p>
+                    Partnering with Supermicro, we deliver cutting-edge solutions, including high-performance servers and storage, perfect for AI to data centers. Our Supermicro range meets specific needs to all, from entry-level to enterprise systems. Their commitment to sustainability reduces your carbon footprint and energy costs, helping our customers stay ahead in the fast-paced world of technology. Find us on Supermicro's where to buy page as a trusted reseller and distributor of Supermicro products.
+                  </p>
+                  <a href="#" class="supermicro-btn">View Products</a>
+                </div>
+                <div class="superimage">
+                     <img src="./super.png" alt="">
+                </div>
+              </div>
+            </div>
+            
+
+       <!-- ========spec-================= -->
+       <div class="s-main">
+              <div class="popular-header">
+                     <p>What our customers say about us</p>
+              </div>
+              <div class="s-sub">
+
+                     <div class="s1">
+                            <div class="s1-header">
+                                   <img src="./assets/feedback/feed1.png" alt="">
+                            </div>
+                            <div class="s1-body">
+                                   "After 4 years working with Server Factory, we're still enjoying same-day quotes and
+                                   quick deliveries. And they perform far better than us at system integration!"
+                                   <br>
+                                   Altinea
+                            </div>
+                     </div>
+                     <div class="s2">
+                            <div class="s2-header">
+                                   <img src="./assets/feedback/feed2.png" alt="">
+                            </div>
+                            <div class="s2-body">
+                                   "We've been using ServerFactory for all our hardware since 2016 and have never needed
+                                   to look elsewhere. They provide a professional yet personal service, always going
+                                   over and above to ensure we're happy."<br>
+
+                                   Hydra Communications Ltd
+                            </div>
+                     </div>
+                     <div class="s3">
+                            <div class="s3-header">
+                                   <img src="./assets/feedback/feed3.png" alt="">
+                            </div>
+                            <div class="s3-body">
+                                   "Excellent and friendly sales team, top-level technical advice and extremely
+                                   competitive pricing. Dealing with Server Factory is always a pleasure." <br>
+                                   Imperial College London
+                            </div>
+                     </div>
+
+              </div>
+       </div>
+
+
+       <!-- footer -->
+       <div class="footer-main">
+              <div class="footer-content">
+                     <div class="footer-section">
+                            <h3>About Us</h3>
+                            <p>We provide exceptional solutions tailored to meet your needs. Trusted by businesses
+                                   worldwide.</p>
+                     </div>
+                     <div class="footer-section">
+                            <h3>Quick Links</h3>
+                            <ul>
+                                   <li><a href="#">Home</a></li>
+                                   <li><a href="#">Services</a></li>
+                                   <li><a href="#">About</a></li>
+                                   <li><a href="#">Contact</a></li>
+                            </ul>
+                     </div>
+                     <div class="footer-section">
+                            <h3>Follow Us</h3>
+                            <div class="social-icons">
+                                   <a href="#" class="icon">Facebook</a>
+                                   <a href="#" class="icon">Twitter</a>
+                                   <a href="#" class="icon">LinkedIn</a>
+                            </div>
+                     </div>
+              </div>
+              <div class="footer-bottom">
+                     <p>&copy; 2024 Your Company. All rights reserved.</p>
+              </div>
+       </div>
+
+
+
+</body>
+
+</html>
