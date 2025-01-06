@@ -50,6 +50,8 @@ function displayProducts() {
     });
 }
 
+document.addEventListener('DOMContentLoaded', displayProducts);
+
 
 
 
@@ -1651,17 +1653,597 @@ const products = [
     "Drive": "Total 3 bays: 2 front hot-swap 3.5\" PCIe 5.0 NVMe/SAS drive bays, 1 front hot-swap 3.5\" PCIe 4.0 NVMe/SAS drive bay per node",
     "RAM": "16 DIMM slots Max Memory (1DPC): Up to 4TB 6400MT/s ECC DDR5 RDIMM per Node",
     "Network Ports": "1 RJ45 1 GbE Dedicated BMC LAN port(s) per NodeRequest Quote"
+},
+{
+    "name": "SuperMicro SuperServer SYS-1029GP-TR",
+    "price": "\u00a34,591.20",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-1029gp-tr_2.jpeg",
+    "category": "edge-computing-iot",
+    "Key Features/Applications": "3D/2D and CAD Applications, Cloud Computing, Edge Computing, Oil and Gas Exploration, VDI, AI/ML, Deep Learning Training and Inference",
+    "CPU": "Dual Socket P (LGA 3647) support     2nd Gen Intel Xeon Scalable     processors/p>",
+    "Chassis": "2U / 1 Node",
+    "Drive": "2x Hot-swap 2.5\" SAS/SATA drive bays,     2x Hot-swap 2.5\" SATA/NVMe     drive bays",
+    "RAM": "16x DDR4 DIMM Slots",
+    "Network Ports": "1x SIOM for flexible NetworkingConfigure"
+},
+{
+    "name": "SuperMicro SuperServer 5019A-FTN10P",
+    "price": "\u00a3916.80",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-5019d-fn8tp_1.png",
+    "category": "edge-computing-iot",
+    "Key Features/Applications": "Network Security Appliance, SD-WAN, vCPE controller box, IoT Edge Computing",
+    "CPU": "Single Intel Xeon D-2123IT, 4-Core, 8 Threads, 60W",
+    "Chassis": "1U / 1 Node",
+    "Drive": "1x Internal 3.5\" or 4 Internal 2.5\" drive bays",
+    "RAM": "4x DDR4 DIMM Slots",
+    "Network Ports": "4x 1GbE, 2x 10GBase-T, 2x 10G SFP+ and 1 dedicated LAN for IPMI 2.0Configure"
+},
+{
+    "name": "SuperMicro SuperServer E300-9D",
+    "price": "\u00a3987.60",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-e300-9d.png",
+    "category": "edge-computing-iot",
+    "Key Features/Applications": "Network Security Appliance, Universal Customer Premise Equipment (uCPE), Software Defined WAN (SD-WAN), NFV Edge Computing Server, Virtualization Server, IoT Edge Computing / Gateway",
+    "CPU": "Intel Xeon processor D-2123IT, 4-Core, 8 Threads, 60W",
+    "Chassis": "1U / 1 Node",
+    "Drive": "1x Internal 2.5\" drive bay",
+    "RAM": "4x DDR4 DIMM Slots",
+    "Network Ports": "2x 10GBase-T LAN and 1 dedicated LAN for IPMI 2.0Configure"
+},
+{
+    "name": "SuperMicro SuperServer 5028D-TN4T",
+    "price": "\u00a31,414.80",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-5028d-tn4t.jpeg",
+    "category": "edge-computing-iot",
+    "Key Features/Applications": "Space-efficient, compact design, Network Security Appliance, Cloud and Virtualization, High Performance NAS Servers, Business Critical Applications, Small and Medium Business, SR-IOV supported (for Xeon D-1541)",
+    "CPU": "Intel Xeon processor D-1541, Single socket FCBGA 1667; 8-Core, 45W",
+    "Chassis": "Mini Tower",
+    "Drive": "4x 3.5\" Hot-swap drive bays; 2x 2.5\" fixed drive bays",
+    "RAM": "4x DDR4 DIMM Slots",
+    "Network Ports": "Dual 10GbE LAN and Intel i350-AM2 dual port GbE LANConfigure"
+},
+{
+    "name": "A+ Server E301-9D-8CN4",
+    "price": "\u00a3944.40",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/a/s/as_-e301-9d-8cn4_open_2.jpeg",
+    "category": "edge-computing-iot",
+    "Key Features/Applications": "Network Security Appliance, SD-WAN and vCPE/uCPE, Embedded IoT Computing, Entry-level Network Appliance",
+    "CPU": "Single AMD EPYC\u2122 3251 SoC Processor, 8 Core/16 Thread, 2.5GHz/50W",
+    "Chassis": "1.5U Compact Box",
+    "Drive": "2x Internal Fixed 2.5\" drive bay bracket",
+    "RAM": "Up to 512GB ECC Registered DDR4-2666Mz SDRAM in 4 DIMMs",
+    "Network Ports": "4 Gigabit Ethernet ports, 1 dedicated IPMI LANConfigure"
+},
+{
+    "name": "IoT SuperServer SYS-111AD-WRN2 New",
+    "price": "\u00a31,108.80",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-111ad-wrn2_main.jpg",
+    "category": "edge-computing-iot",
+    "Key Features/Applications": "Virtualization, Firewall Applications, Edge/Cloud Computing Services, CDN/vCDN/Cloud CDN, vRAN/o-RAN",
+    "CPU": "Intel 14th/13th/12th Gen Core i9/i7/i5/i3 (ADL/RPL-S) Processor in LGA1700 Socket with R680E Chipset",
+    "Chassis": "1U Rackmount",
+    "Drive": "2 internal fixed 2.5\" NVMe/SAS/SATA drive bay(s)",
+    "RAM": "4 DIMM slots, DDR5-4400MHz memory, support up to 128GB",
+    "Network Ports": "1 RJ45 1 GbE Dedicated IPMI LAN port(s), 2 RJ45 2.5 GbE LAN port(s) (Intel I226)Starting from:  \u00a3924.00 Configure"
+},
+{
+    "name": "SuperMicro SuperServer 5028D-TN4T",
+    "price": "\u00a31,414.80",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-5028d-tn4t.jpeg",
+    "category": "workstations",
+    "Key Features/Applications": "Space-efficient, compact design, Network Security Appliance, Cloud and Virtualization, High Performance NAS Servers, Business Critical Applications, Small and Medium Business, SR-IOV supported (for Xeon D-1541)",
+    "CPU": "Intel Xeon processor D-1541, Single socket FCBGA 1667; 8-Core, 45W",
+    "Chassis": "Mini Tower",
+    "Drive": "4x 3.5\" Hot-swap drive bays; 2x 2.5\" fixed drive bays",
+    "RAM": "4x DDR4 DIMM Slots",
+    "Network Ports": "Dual 10GbE LAN and Intel i350-AM2 dual port GbE LANConfigure"
+},
+{
+    "name": "SuperWorkstation 5039AD-I",
+    "price": "\u00a31,600.80",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/o/i/oip_28_.jpeg",
+    "category": "workstations",
+    "Key Features/Applications": "High-end Desktop, Extreme Gaming, High-performance computing, Simulation and Creation Design",
+    "CPU": "Single Socket R4 supports Intel Core\u2122 i9 X-Series, and Intel Core\u2122 i9 Extreme X-Series Processors",
+    "Chassis": "Mid-Tower",
+    "Drive": "6 fixed 3.5\" and 4 fixed 2.5\" drive bays 2 standard 5.25\" drive bays",
+    "RAM": "Up to 256GB Non-ECC UDIMM, DDR4-2666MHz, in 8 DIMM slots",
+    "Network Ports": "5G LAN and 1GbE LANConfigure"
+},
+{
+    "name": "SuperServer 7049P-TR(T)",
+    "price": "\u00a31,706.40",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-7049p-tr.jpeg",
+    "category": "workstations",
+    "Key Features/Applications": "Cost Effective",
+    "CPU": "Dual Socket P (LGA 3647) support     2nd Gen Intel Xeon Scalable     processors",
+    "Chassis": "4U / Rackmountable / Tower",
+    "Drive": "8x Hot-swap 2.5\"/3.5\" SATA3 (6Gbps)     drive bays; RAID 0, 1, 5, 10",
+    "RAM": "16x DDR4 DIMM Slots",
+    "Network Ports": "2x 1GbE LAN ports with Intel X722Configure"
+},
+{
+    "name": "SuperWorkstation 7049GP-TRT",
+    "price": "\u00a32,900.40",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-7049gp-trt_open.gif.png",
+    "category": "workstations",
+    "Key Features/Applications": "Network Security Appliance, SD-WAN, vCPE controller box, IoT Edge Computing",
+    "CPU": "Dual 2nd Gen Intel Xeon Scalable processors, up to 28 Cores, up to 56 Threads, 70-205W",
+    "Chassis": "4U Rackmountable / Tower Optional Rackmount Kit",
+    "Drive": "8 Hot-swap 3.5\" drive bays",
+    "RAM": "16 DIMMs; up to 4TB 3DS ECC DDR4-2933MHz RDIMM/LRDIMM",
+    "Network Ports": "2x 10GBase-T LAN ports, Supports 10GBASE-T, 100BASE-TX, and 1000BASE-T; 1 dedicated LAN for IPMI 2.0Configure"
+},
+{
+    "name": "A+ SuperWorkstation 5014A-TT (Complete System Only)",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/a/s/as-5014a-tt_angle.jpg.jpg",
+    "category": "workstations",
+    "Key Features/Applications": "CAD, Media and Entertainment Content Creation, Product Design and Engineering Simulation, AI and Deep Learning",
+    "CPU": "AMD Ryzen\u2122 Threadripper\u2122 PRO 5000WX/3000WX Series Processor, up to 64 Cores",
+    "Chassis": "CSE-GS7A-2000B, Full Tower, Optional Rackmount Kit (6U)",
+    "Drive": "4 fixed internal 3.5\"/2.5\" SATA drive bays, 2 fixed front 2.5\" SATA drive bays, 4 M.2",
+    "RAM": "8 DIMMs; up to 2TB Registered ECC DDR4 3200-MHz Memory",
+    "Network Ports": "1x 10GBase-T LAN port, 1x 1GbE LAN port (shared with IPMI)AS-5014A-TT"
+},
+{
+    "name": "Supermicro SuperWorkstation SYS-751A-I (Complete System Only )",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-751a-i_callout_angle.jpg.jpg",
+    "category": "workstations",
+    "Key Features/Applications": "Rendering, CAD, Multimedia/Digital Content creation, Engineering/scientific research",
+    "CPU": "5th/4th Gen Intel  Xeon Scalable processor support",
+    "Chassis": "Tower or 5U Rackmount",
+    "Drive": "2x 2.5\" Front access SATA drive bays with hot swap, 2x 5.25\" peripheral drive bays, 4x internal 3.5\" SATA rotating drive bays for easy access, up to 4x NVMe SSD support with opitonal cables and converter trays",
+    "RAM": "16 DIMM slots Max Memory (1DPC): Up to 2TB 5600MT/s ECC DDR5 RDIMM",
+    "Network Ports": "2 RJ45 10GbE (IPMI Shared on LAN port1)Request Quote"
+},
+{
+    "name": "Supermicro SuperWorkstation SYS-551A-T",
+    "price": "\u00a31,695.60",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-551a-t_callout_angle.jpg.jpg",
+    "category": "workstations",
+    "Key Features/Applications": "Product Design and Engineering Simulation",
+    "CPU": "Socket E (LGA4677) support Intel Xeon W-3400 processors",
+    "Chassis": "5U (Full Tower) Rackmount",
+    "Drive": "2 2.5\" SATA3 drive bays; 4 3.5\" SATA3 drive bays; ; 4 M.2 NVMe",
+    "RAM": "Slot Count: 16 DIMM slots Max Memory (2DPC): Up to 2TB 4800MT/s ECC DDR5 RDIMM/LRDIMM",
+    "Network Ports": "1x 1GbBaseT, 1x 10GbBaseTStarting from:  \u00a31,388.00 Configure"
+},
+{
+    "name": "Supermicro Desktop Gaming SuperWorkstation SYS-531AD-I",
+    "price": "\u00a3864.00",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-531ad-i_main.jpg.jpg",
+    "category": "workstations",
+    "Key Features/Applications": "High-performance Gaming, Content Creation",
+    "CPU": "Supports 14th/13th/12th Gen Intel Core\u2122 i9, i7, i5, and i3 Processors",
+    "Chassis": "Mid-Tower",
+    "Drive": "6x 3.5\" SATA drive bays, 2x Peripheral 5.25\" drive bays",
+    "RAM": "Slot Count: 4 DIMM slots Max Memory (2DPC): Up to 128GB 4400MT/s non-ECC DDR5 UDIMM",
+    "Network Ports": "Single LAN with Intel i219V 1Gb Single LAN with Marvell AQC113 10GbStarting from:  \u00a3681.00 Configure"
+},
+{
+    "name": "Supermicro Mainstream A+ Server AS -3015A-I",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/a/s/as_-3015a-i_callout_angle.jpg.jpg",
+    "category": "workstations",
+    "Key Features/Applications": "2D/3D Content Creation, Email/Firewall/Application Server, Designed for small and medium businesses",
+    "CPU": "AMD EPYC\u2122 4004 Series Processor",
+    "Chassis": "Mini-Tower",
+    "Drive": "Default: Total 4 bay(s) 4 front fixed 3.5\" SATA drive bay(s) / Option A: Total 4 bay(s) 4 front fixed 2.5\" SATA drive bay(s)",
+    "RAM": "4 Dual channel ECC/Non-ECC DDR5 unbuffered DIMM slots supporting up to 192GB memory",
+    "Network Ports": "Dual 1GbE LAN (Intel I210-AT)Starting from:  \u00a3642.00 Configure"
+},
+{
+    "name": "Supermicro SuperWorkstation SYS-531A-IL",
+    "price": "\u00a3798.00",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-531a-il_main.jpg-2.jpg",
+    "category": "workstations",
+    "Key Features/Applications": "N/A",
+    "CPU": "N/A",
+    "Chassis": "N/A",
+    "Drive": "N/A",
+    "RAM": "N/A",
+    "Network Ports": "N/A"
+},
+{
+    "name": "Supermicro GPU ARS-111GL-DNHR-LCC (Complete System Only)",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/a/r/ars-111gl-dnhr-lcc_main.jpg-2.jpg",
+    "category": "liquid-cooling-servers",
+    "Key Features/Applications": "High Performance Computing, AI/Deep Learning Training and Inference, Large Language Model (LLM) and Generative AI",
+    "CPU": "NVIDIA 72-core NVIDIA Grace CPU on GH200 Grace Hopper\u2122 Superchip",
+    "Chassis": "1U Rackmount Liquid Cooling",
+    "Drive": "4 front hot-swap E1.S NVMe drive bay(s)",
+    "RAM": "Slot Count: Onboard Memory, Max Memory: Up to 480GB ECC LPDDR5X, Additional GPU Memory: Up to 96GB ECC HBM3",
+    "Network Ports": "1 RJ45 1 GbE Dedicated IPMI LAN port(s)Request Quote"
+},
+{
+    "name": "Supermicro GPU ARS-111GL-NHR-LCC (Complete System Only)",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/a/r/ars-111gl-nhr-lcc_main.jpg.jpg",
+    "category": "liquid-cooling-servers",
+    "Key Features/Applications": "High Performance Computing, AI/Deep Learning Training and Inference, Large Language Model (LLM) and Generative AI",
+    "CPU": "NVIDIA 72-core NVIDIA Grace CPU on GH200 Grace Hopper\u2122 Superchip",
+    "Chassis": "1U Rackmount Liquid Cooling",
+    "Drive": "8 front hot-swap E1.S NVMe drive bay(s)",
+    "RAM": "Slot Count: Onboard Memory, Max Memory: Up to 480GB ECC LPDDR5X, Additional GPU Memory: Up to 96GB ECC HBM3",
+    "Network Ports": "1 RJ45 1 GbE Dedicated IPMI LAN port(s)Request Quote"
+},
+{
+    "name": "Supermicro GPU A+ Server AS -2145GH-TNMR-LCC (Complete System Only ) Coming Soon",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/a/s/as_-2145gh-tnmr-lcc_main.jpg.jpg",
+    "category": "liquid-cooling-servers",
+    "Key Features/Applications": "Artificial Intelligence (AI), Large Language Model (LLM), Cloud Solution Provider (CSP), High Performance Comptue (HPC), Research Lab",
+    "CPU": "Quad AMD Instinct\u2122 MI300A processors",
+    "Chassis": "2U Rackmount Liquid Cooling",
+    "Drive": "Default 8 hot-swap 2.5\" NVMe dirve bays or Optional 8 hot-swap 2.5\" SAS3/SATA3 drive bays via storage add-on card, 2 Internal NVMe/SATA M.2 slots",
+    "RAM": "Slot Count: Onboard Memory, Max Memory: Up to 512GB ECC HBM3",
+    "Network Ports": "1 RJ45 1 GbE Dedicated IPMI LAN port(s)Request Quote"
+},
+{
+    "name": "Supermicro GPU SuperServer SYS-221GE-TNHT-LCC (Complete System Only)",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-221ge-tnht-lcc_main.jpg.jpg",
+    "category": "liquid-cooling-servers",
+    "Key Features/Applications": "High Performance Computing, AI/Deep Learning Training, Industrial Automation, Retail, Healthcare, Conversational AIBusiness Intelligence & AnalyticsDrug Discovery, Climate and Weather Modeling, Finance & Economics",
+    "CPU": "Dual 5th/4th Gen Intel Xeon Scalable processor support",
+    "Chassis": "2U Rackmount Liquid Cooling",
+    "Drive": "2 M.2 NVMe for boot drive only, 4x 2.5\" Hot-swap NVMe/SATA3 drive bays",
+    "RAM": "32 DIMM slots Up to 8TB: 32x 256 GB DRAM Memory Type: 5600MTs ECC DDR5",
+    "Network Ports": "Flexible networking optionsRequest Quote"
+},
+{
+    "name": "Supermicro GPU SuperServer SYS-421GE-TNHR2-LCC (Complete System Only)",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-421ge-tnhr2-lcc_main.jpg.jpg",
+    "category": "liquid-cooling-servers",
+    "Key Features/Applications": "High Performance Computing, AI/Deep Learning Training, Industrial Automation, Retail, Healthcare, Conversational AIBusiness Intelligence & Analytics, Drug Discovery, Climate and Weather Modeling, Finance & Economics",
+    "CPU": "5th/4th Gen Intel  Xeon Scalable processor support",
+    "Chassis": "4U Rackmount Liquid Cooling",
+    "Drive": "8 front hot-swap 2.5\" NVMe drive bay(s), 2 M.2 NVMe slot(s) (M-key)",
+    "RAM": "32 DIMM slots Up to 8TB: 32x 256 GB DRAM Memory Type: 5600MTs ECC DDR5",
+    "Network Ports": "2 SFP28 25GbE with Broadcom BCM57414 (optional), 2 RJ45 10GbE with Intel X710-AT2 (optional)Request Quote"
+},
+{
+    "name": "Supermicro GPU A+ Server AS -4125GS-TNHR2-LCC (Complete System Only)",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/a/s/as_-4125gs-tnhr2-lcc_main.jpg.jpg",
+    "category": "liquid-cooling-servers",
+    "Key Features/Applications": "Artificial Intelligence (AI), HPC, AI / Deep Learning, Deep Learning/AI/Machine Learning Development",
+    "CPU": "Dual-Socket, AMD EPYC\u2122 9004 Series Processors",
+    "Chassis": "4U Rackmount Liquid Cooling",
+    "Drive": "Default: Total 8 bay(s) / 8 front hot-swap 2.5\" NVMe drive bay(s)",
+    "RAM": "24 DIMM slots Up to 6TB: 4800 ECC DDR5",
+    "Network Ports": "1 RJ45 1 GbE Dedicated IPMI LAN port(s)Request Quote"
+},
+{
+    "name": "Supermicro GPU SuperServer SYS-421GU-TNXR (Complete System Only)",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-421gu-tnxr_main.jpg.jpg",
+    "category": "liquid-cooling-servers",
+    "Key Features/Applications": "High Performance Computing, AI/Deep Learning Training, Large Language Model (LLM) Natural Language Processing",
+    "CPU": "Dual Socket E (LGA-4677), 5th Gen Intel Xeon / 4th Gen Intel Xeon Scalable processors",
+    "Chassis": "4U Rackmount Liquid Cooling",
+    "Drive": "6 front hot-swap 2.5\" NVMe/SATA drive bay(s)",
+    "RAM": "Slot Count: 32 DIMM slots Max Memory (2DPC): Up to 8TB 5600MT/s ECC DDR5",
+    "Network Ports": "2 RJ45 10GbE with Intel X710-AT2Request Quote"
+},
+{
+    "name": "Supermicro GPU SuperServer SYS-421GE-TNRT (Complete System Only)",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-421ge-tnrt_main.jpg",
+    "category": "liquid-cooling-servers",
+    "Key Features/Applications": "High Performance Computing, VDI, AI/Deep Learning Training, Media/Video Streaming, Cloud Gaming, Animation and Modeling, Design & Visualization, 3D Rendering, Diagnostic Imaging",
+    "CPU": "Dual Socket E (LGA-4677) 5th Gen Intel Xeon / 4th Gen Intel Xeon Scalable processors",
+    "Chassis": "4U Rackmount Liquid Cooling",
+    "Drive": "8x HOT SWAP 2.5\u201d SATA/SAS (AOC required), 8x 2.5\" Hot-swap  SATA drive bays, 8x2.5\" Hot-swap  NVMe drive bays",
+    "RAM": "Slot Count: 32 DIMM slots, Max Memory (1DPC): Up to 4TB 5600MT/s ECC RDIMM, Max Memory (2DPC): Up to 8TB 4400MT/s ECC DDR5 RDIMM",
+    "Network Ports": "2 RJ45 10GbE with Intel X710-AT2Request Quote"
+},
+{
+    "name": "Supermicro GPU A+ Server AS -4125GS-TNRT (Complete System Only)",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/a/s/as_-4125gs-tnrt_main.jpg.jpg",
+    "category": "liquid-cooling-servers",
+    "Key Features/Applications": "AI / Deep Learning, High Performance Computing",
+    "CPU": "Dual Socket SP5 AMD EPYC\u2122 9004 Series Processors",
+    "Chassis": "4U Rackmount",
+    "Drive": "Default: Total 6 bay(s) 2 front hot-swap 2.5\" SATA drive bay(s) 4 front hot-swap 2.5\" NVMe drive bay(s)",
+    "RAM": "Slot Count: 24 DIMM slots Max Memory (1DPC): Up to 6TB 4800MT/s ECC DDR5 RDIMM/LRDIMM",
+    "Network Ports": "1 RJ45 1 GbE Dedicated IPMI LAN port(s) 2 RJ45 10 GBASE-T LAN port(s)Request Quote"
+},
+{
+    "name": "Supermicro BigTwin SuperServer SYS-221BT-HNTR (Complete System Only)",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-221bt-hntr_main.jpg",
+    "category": "liquid-cooling-servers",
+    "Key Features/Applications": "All-Flash NVMe Hyperconverged Infrastructure, Container-as-a-Service; Application Accelerator, High-Performance File System, Diskless HPC Clusters",
+    "CPU": "Dual Socket E (LGA 4677) support 5th/4th Gen Intel Xeon Scalable processors per node",
+    "Chassis": "2U Rackmount",
+    "Drive": "Default: Total 6 bay(s) 2 front hot-swap 2.5\" PCIe 5.0 NVMe/SATA drive bay(s) 4 front hot-swap 2.5\" PCIe 4.0 NVMe/SATA drive bay(s) per node",
+    "RAM": "16 DIMM Slots supporting up to 4TB of memory; ECC RDIMMs up to DDR5-5600 per node",
+    "Network Ports": "AIOMRequesting Quote:Please provide full specification including Processor, Memory, Storage, AIOM, AOC, TPM and any other requirements such as RAIDRequest Quote"
+},
+{
+    "name": "Supermicro BigTwin SuperServer SYS-221BT-DNTR (Complete System Only)",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-221bt-dntr_main.jpg.jpg",
+    "category": "liquid-cooling-servers",
+    "Key Features/Applications": "High-Performance File System, Diskless HPC Clusters, Scale Out All-Flash NVMe Storage, Big Data Analytics and AI",
+    "CPU": "Socket E (LGA 4677) support 5th/4th Gen Intel Xeon Scalable processors per node",
+    "Chassis": "2U Rackmount",
+    "Drive": "Default: Total 12 bay(s) 2 front hot-swap 2.5\" PCIe 5.0 NVMe/SATA drive bay(s) 10 front hot-swap 2.5\" PCIe 4.0 NVMe/SATA drive bay(s) per node",
+    "RAM": "16 DIMM Slots supporting up to 4TB of memory; ECC RDIMMs up to DDR5-5600 per node",
+    "Network Ports": "1 RJ45 1 GbE Dedicated BMC LAN port(s) per nodeRequest Quote"
+},
+{
+    "name": "Supermicro FatTwin SuperServer SYS-F511E2-RT (Complete System Only)",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-f511e2-rt_main.jpg.jpg",
+    "category": "liquid-cooling-servers",
+    "Key Features/Applications": "Hyperscale / Hyperconverged, HPC and Big Data, Data Center Enterprise Applications, Telco Data Center",
+    "CPU": "Single Socket E (LGA-4677) Supports 4th/5th Gen Intel Xeon Scalable Processor per node",
+    "Chassis": "4U",
+    "Drive": "Default: Total 6 front hot-swap 2.5\" NVMe*/SAS*/SATA drive bay(s) per node",
+    "RAM": "Slot Count: 16 DIMM slots Max Memory (2DPC): Up to 4TB 5600MT/s ECC DDR5 per node",
+    "Network Ports": "1 RJ45 1GbE per nodeRequest Quote"
+},
+{
+    "name": "Supermicro FatTwin SuperServer SYS-F521E3-RTB (Complete System Only)",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-f521e3-rtb_main.jpg.jpg",
+    "category": "liquid-cooling-servers",
+    "Key Features/Applications": "Hyperscale / Hyperconverged, HPC and Big Data, Data Center Enterprise Applications, Telco Data Center",
+    "CPU": "Single Socket E (LGA-4677) Supports 4th/5th Gen Intel Xeon Scalable Processor",
+    "Chassis": "4U",
+    "Drive": "Default: Total 8 2 rear hot-swap 3.5\" NVMe/SAS/SATA drive bay(s) 6 front hot-swap 3.5\" NVMe*/SAS*/SATA drive bay(s) per node",
+    "RAM": "Slot Count: 16 DIMM slots Max Memory (2DPC): Up to 4TB 5600MT/s ECC DDR5 per node",
+    "Network Ports": "1 RJ45 1GbE per nodeRequest Quote"
+},
+{
+    "name": "Supermicro Blade SBI-421E-1T3N (Complete System Only)",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/b/sbi-421e-1t3n_callout_angle.jpg.jpg",
+    "category": "liquid-cooling-servers",
+    "Key Features/Applications": "Enterprise data center, EDA, Cloud, High-performance Computing (HPC), Liquid cooling solution is available",
+    "CPU": "Dual socket E (LGA-4677) supports 5th/4th Gen Intel Xeon Scalable processors",
+    "Chassis": "1U / 1 Node",
+    "Drive": "2 Hot-swap U.2 NVMe/SATA3 drive bays, 1 Hot-swap SATA3 drive bay, 1 M.2 2280, Optional: 4 M.2 NVMe via mezz card",
+    "RAM": "16 DDR5 DIMM slots 1DPC with 5600MHz ECC RDIMM",
+    "Network Ports": "Onboard Dual 25G Ethernet, 1 Mezzanine expansion slot and 3 different optional Mezzanine card., 1 OCP 3.0 network card (option), Optional: Dual 25G Ethernet / 100G EDR / 200G HDR / 400G NDRRequest Quote"
+},
+{
+    "name": "Supermicro Hyper SuperServer SYS-221H-TNR (Complete System Only)",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-221h-tnr_main.jpg",
+    "category": "liquid-cooling-servers",
+    "Key Features/Applications": "Virtualization, Software-defined Storage, AI Inference and Machine Learning, Cloud Computing, Enterprise Server",
+    "CPU": "Dual Socket E (LGA-4677) 5th/4th Gen Intel Xeon Scalable processors",
+    "Chassis": "2U Rackmount",
+    "Drive": "8x 2.5\" hot-swap NVMe/SATA/SAS drive bays; Optional 8x 2.5\" hot-swap NVMe/SAS/SATA drive bays; 2x internal M.2 NVMe/SATA drive slots; Optional RAID support via storage add-on card",
+    "RAM": "Slot Count: 32 DIMM slots Max Memory (1DPC): Up to 4TB 5600MT/s ECC DDR5 RDIMM / Max Memory (2DPC): Up to 8TB 4400MT/s ECC DDR5 RDIMM",
+    "Network Ports": "Flexible networking options with up to 2 AIOM networking slots (OCP NIC 3.0 compatible)Request Quote"
+},
+{
+    "name": "Supermicro Hyper SuperServer SYS-121H-TNR (Complete System Only)",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-121h-tnr_main.jpg.jpg",
+    "category": "liquid-cooling-servers",
+    "Key Features/Applications": "Virtualization, Software-defined Storage, AI Inference and Machine Learning, Cloud Computing, Enterprise Server",
+    "CPU": "Dual Socket E (LGA-4677) 5th/4th Gen Intel Xeon Scalable processors",
+    "Chassis": "1U Rackmount",
+    "Drive": "8x 2.5\" hot-swap NVMe/SATA/SAS drive bays; Optional 4x 2.5\" hot-swap NVMe/SAS/SATA drive bays; 2x internal M.2 NVMe/SATA drive slots; Optional RAID support via storage add-on card",
+    "RAM": "Slot Count: 32 DIMM slots Max Memory (1DPC): Up to 4TB 5600MT/s ECC DDR5 RDIMM. / Max Memory (2DPC): Up to 8TB 4400MT/s ECC DDR5 RDIMM",
+    "Network Ports": "Flexible networking options with 1 AIOM networking slot (OCP NIC 3.0 compatible)Request Quote"
+},
+{
+    "name": "Supermicro Hyper A+ Server AS -2125HS-TNR (Complete System Only)",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/a/s/as_-2125hs-tnr_main.jpg.jpg",
+    "category": "liquid-cooling-servers",
+    "Key Features/Applications": "Virtualization, Software-defined Storage, AI Inference and Machine Learning, Cloud Computing, Enterprise Server",
+    "CPU": "Dual 4th Generation AMD EPYC\u2122 9004 Series Processors",
+    "Chassis": "2U",
+    "Drive": "Default: Total 24 front fixed 2.5\" NVMe*/SAS*/SATA* drive bay(s) (*NVMe/SAS/SATA support may require additional storage controller and/or cables, please see the optional parts list for details)",
+    "RAM": "24 DIMM slots Max Memory (1DPC): Up to 6TB 4800MT/s ECC DDR5 RDIMM",
+    "Network Ports": "1 RJ45 1 GbE Dedicated IPMI LAN port(s)Request Quote"
+},
+{
+    "name": "Supermicro Hyper A+ Server AS -1125HS-TNR (Complete System Only)",
+    "price": "\u00a31.20",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/a/s/as_-1125hs-tnr_main.jpg.jpg",
+    "category": "liquid-cooling-servers",
+    "Key Features/Applications": "Virtualization, Software-defined Storage, AI Inference and Machine Learning, Cloud Computing, Enterprise Server",
+    "CPU": "Dual 4th Generation AMD EPYC\u2122 9004 Series Processors",
+    "Chassis": "1U",
+    "Drive": "Default: Total 8 bay(s) 8 front hot-swap 2.5\" NVMe*/SAS*/SATA* drive bay(s) Option A: Total 12 bay(s) 12 front hot-swap 2.5\" NVMe*/SAS*/SATA* drive bay(s) (*NVMe/SAS/SATA support may require additional storage controller and/or cables, please see the optional parts list for details)",
+    "RAM": "Slot Count: 24 DIMM slots Max Memory (1DPC): Up to 6TB 4800MT/s ECC DDR5 RDIMM",
+    "Network Ports": "1 RJ45 1 GbE Dedicated IPMI LAN port(s)Request Quote"
+},
+{
+    "name": "Blade SBI-612B-1C2N (Complete System Only)",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/b/sbi-612b-1c2n_callout_node.jpg",
+    "category": "liquid-cooling-servers",
+    "Key Features/Applications": "Enterprise Applications, High Performance Computing, Engineering/scientific research, Cloud, virtualization, financial, EDA",
+    "CPU": "Single Socket E2 (LGA-4710), Intel Xeon 6 processors",
+    "Chassis": "1U / 1 Node",
+    "Drive": "2 front-end hot-swap 2.5\" NVMe/SAS drive bay(s); HW RAID 0 & 1 with Broadcom 3108, 1 M.2 2280/22110 NVMe/SATA3 drive (onboard)",
+    "RAM": "16 DIMM slots (2DPC) Max Memory: Up to 4TB 6400MT/s ECC DDR5 RDIMM",
+    "Network Ports": "Onboard Dual 25G Ethernet, 1 expansion slot w/ optional mezzanine cardsRequest Quote"
+},
+{
+    "name": "Supermicro Blade SBI-422B-1NE14 (Complete System Only)",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/b/sbi-422b-1ne14_callout_node.jpg",
+    "category": "liquid-cooling-servers",
+    "Key Features/Applications": "Enterprise data center, EDA, Cloud, High-performance Computing (HPC)",
+    "CPU": "Dual Socket E2 (LGA-4710), Intel Xeon 6 processors",
+    "Chassis": "1U / 1 Node",
+    "Drive": "4 E1.S drives, 1 NVMe M.2 2280 (onboard) Optional: 4 M.2 NVMe via mezz card",
+    "RAM": "16 DDR5 DIMM slots 1DPC with DDR5-6400MT/s ECC RDIMM/RDIMM 3DS",
+    "Network Ports": "Onboard Dual 25G Ethernet, 1 expansion slot w/ optional mezzanine cards, 1 expansion slot for OCP 3.0 compliant card (IB NDR/NDR200)Request Quote"
+},
+{
+    "name": "Blade SBI-622B-1NE34 (Complete System Only) Coming Soon",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/b/sbi-621e-1ne34_spec.jpg",
+    "category": "liquid-cooling-servers",
+    "Key Features/Applications": "Enterprise Applications, High Performance Computing, Engineering/scientific research, Cloud, virtualization, financial, EDA",
+    "CPU": "Dual Socket E2 (LGA-4710), Intel Xeon 6 processors",
+    "Chassis": "1U / 1 Node",
+    "Drive": "6 NVMe SSDs with 4 Hot-swap E3.S SSD (PCIe Gen5) and 2 M.2",
+    "RAM": "Supports 32x DDR5 ECC RDIMM/RDIMM 3DS (up to 6400MT/s 1DPC)",
+    "Network Ports": "Dual-port 25G Ethernet (LOM)Coming Soon Request Quote"
+},
+{
+    "name": "Blade SBI-622B-1NE38 (Complete System Only) Coming Soon",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/b/sbi-621e-1ne38_spec.jpg",
+    "category": "liquid-cooling-servers",
+    "Key Features/Applications": "Enterprise Applications, High Performance Computing, Engineering/scientific research, Cloud, virtualization, financial, EDA",
+    "CPU": "Dual Socket E2 (LGA-4710), Intel Xeon 6 processors",
+    "Chassis": "1U / 1 Node",
+    "Drive": "10 NVMe SSDs with 8 Hot-swap E3.S PCIe Gen5 and 2 M.2",
+    "RAM": "Supports 32x DDR5 ECC RDIMM/RDIMM 3DS (up to 6400MT/s 1DPC)",
+    "Network Ports": "8 Hot-swap E3.S drive bays M.2: Optional: 2 M.2 2280 NVMe SSDs via adapter]Coming Soon Request Quote"
+},
+{
+    "name": "Blade SBI-622B-5NE38 (Complete System Only) Coming Soon",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/placeholder/default/website-product_1.png",
+    "category": "liquid-cooling-servers",
+    "Key Features/Applications": "Enterprise Applications, High Performance Computing, Engineering/scientific research, Cloud, virtualization, financial, EDA",
+    "CPU": "Dual Socket E2 (LGA-4710), Intel Xeon 6 processors",
+    "Chassis": "1U / 1 Node",
+    "Drive": "10 NVMe SSDs with 8 Hot-swap E3.S PCIe Gen5 and 2 M.2",
+    "RAM": "Supports 32x DDR5 ECC RDIMM/RDIMM 3DS (up to 6400MT/s 1DPC)Coming Soon Request Quote",
+    "Network Ports": "N/A"
+},
+{
+    "name": "SuperMicro SuperServer 5028D-TN4T",
+    "price": "\u00a31,414.80",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-5028d-tn4t.jpeg",
+    "category": "tower-servers-and-workstations",
+    "Key Features/Applications": "Space-efficient, compact design, Network Security Appliance, Cloud and Virtualization, High Performance NAS Servers, Business Critical Applications, Small and Medium Business, SR-IOV supported (for Xeon D-1541)",
+    "CPU": "Intel Xeon processor D-1541, Single socket FCBGA 1667; 8-Core, 45W",
+    "Chassis": "Mini Tower",
+    "Drive": "4x 3.5\" Hot-swap drive bays; 2x 2.5\" fixed drive bays",
+    "RAM": "4x DDR4 DIMM Slots",
+    "Network Ports": "Dual 10GbE LAN and Intel i350-AM2 dual port GbE LANConfigure"
+},
+{
+    "name": "SuperWorkstation 5039AD-I",
+    "price": "\u00a31,600.80",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/o/i/oip_28_.jpeg",
+    "category": "tower-servers-and-workstations",
+    "Key Features/Applications": "High-end Desktop, Extreme Gaming, High-performance computing, Simulation and Creation Design",
+    "CPU": "Single Socket R4 supports Intel Core\u2122 i9 X-Series, and Intel Core\u2122 i9 Extreme X-Series Processors",
+    "Chassis": "Mid-Tower",
+    "Drive": "6 fixed 3.5\" and 4 fixed 2.5\" drive bays 2 standard 5.25\" drive bays",
+    "RAM": "Up to 256GB Non-ECC UDIMM, DDR4-2666MHz, in 8 DIMM slots",
+    "Network Ports": "5G LAN and 1GbE LANConfigure"
+},
+{
+    "name": "SuperServer 7049P-TR(T)",
+    "price": "\u00a31,706.40",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-7049p-tr.jpeg",
+    "category": "tower-servers-and-workstations",
+    "Key Features/Applications": "Cost Effective",
+    "CPU": "Dual Socket P (LGA 3647) support     2nd Gen Intel Xeon Scalable     processors",
+    "Chassis": "4U / Rackmountable / Tower",
+    "Drive": "8x Hot-swap 2.5\"/3.5\" SATA3 (6Gbps)     drive bays; RAID 0, 1, 5, 10",
+    "RAM": "16x DDR4 DIMM Slots",
+    "Network Ports": "2x 1GbE LAN ports with Intel X722Configure"
+},
+{
+    "name": "SuperWorkstation 7049GP-TRT",
+    "price": "\u00a32,900.40",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-7049gp-trt_open.gif.png",
+    "category": "tower-servers-and-workstations",
+    "Key Features/Applications": "Network Security Appliance, SD-WAN, vCPE controller box, IoT Edge Computing",
+    "CPU": "Dual 2nd Gen Intel Xeon Scalable processors, up to 28 Cores, up to 56 Threads, 70-205W",
+    "Chassis": "4U Rackmountable / Tower Optional Rackmount Kit",
+    "Drive": "8 Hot-swap 3.5\" drive bays",
+    "RAM": "16 DIMMs; up to 4TB 3DS ECC DDR4-2933MHz RDIMM/LRDIMM",
+    "Network Ports": "2x 10GBase-T LAN ports, Supports 10GBASE-T, 100BASE-TX, and 1000BASE-T; 1 dedicated LAN for IPMI 2.0Configure"
+},
+{
+    "name": "A+ SuperWorkstation 5014A-TT (Complete System Only)",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/a/s/as-5014a-tt_angle.jpg.jpg",
+    "category": "tower-servers-and-workstations",
+    "Key Features/Applications": "CAD, Media and Entertainment Content Creation, Product Design and Engineering Simulation, AI and Deep Learning",
+    "CPU": "AMD Ryzen\u2122 Threadripper\u2122 PRO 5000WX/3000WX Series Processor, up to 64 Cores",
+    "Chassis": "CSE-GS7A-2000B, Full Tower, Optional Rackmount Kit (6U)",
+    "Drive": "4 fixed internal 3.5\"/2.5\" SATA drive bays, 2 fixed front 2.5\" SATA drive bays, 4 M.2",
+    "RAM": "8 DIMMs; up to 2TB Registered ECC DDR4 3200-MHz Memory",
+    "Network Ports": "1x 10GBase-T LAN port, 1x 1GbE LAN port (shared with IPMI)AS-5014A-TT"
+},
+{
+    "name": "Supermicro SuperWorkstation SYS-751A-I (Complete System Only )",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-751a-i_callout_angle.jpg.jpg",
+    "category": "tower-servers-and-workstations",
+    "Key Features/Applications": "Rendering, CAD, Multimedia/Digital Content creation, Engineering/scientific research",
+    "CPU": "5th/4th Gen Intel  Xeon Scalable processor support",
+    "Chassis": "Tower or 5U Rackmount",
+    "Drive": "2x 2.5\" Front access SATA drive bays with hot swap, 2x 5.25\" peripheral drive bays, 4x internal 3.5\" SATA rotating drive bays for easy access, up to 4x NVMe SSD support with opitonal cables and converter trays",
+    "RAM": "16 DIMM slots Max Memory (1DPC): Up to 2TB 5600MT/s ECC DDR5 RDIMM",
+    "Network Ports": "2 RJ45 10GbE (IPMI Shared on LAN port1)Request Quote"
+},
+{
+    "name": "Supermicro SuperWorkstation SYS-551A-T",
+    "price": "\u00a31,695.60",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-551a-t_callout_angle.jpg.jpg",
+    "category": "tower-servers-and-workstations",
+    "Key Features/Applications": "Product Design and Engineering Simulation",
+    "CPU": "Socket E (LGA4677) support Intel Xeon W-3400 processors",
+    "Chassis": "5U (Full Tower) Rackmount",
+    "Drive": "2 2.5\" SATA3 drive bays; 4 3.5\" SATA3 drive bays; ; 4 M.2 NVMe",
+    "RAM": "Slot Count: 16 DIMM slots Max Memory (2DPC): Up to 2TB 4800MT/s ECC DDR5 RDIMM/LRDIMM",
+    "Network Ports": "1x 1GbBaseT, 1x 10GbBaseTStarting from:  \u00a31,388.00 Configure"
+},
+{
+    "name": "Supermicro Desktop Gaming SuperWorkstation SYS-531AD-I",
+    "price": "\u00a3864.00",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-531ad-i_main.jpg.jpg",
+    "category": "tower-servers-and-workstations",
+    "Key Features/Applications": "High-performance Gaming, Content Creation",
+    "CPU": "Supports 14th/13th/12th Gen Intel Core\u2122 i9, i7, i5, and i3 Processors",
+    "Chassis": "Mid-Tower",
+    "Drive": "6x 3.5\" SATA drive bays, 2x Peripheral 5.25\" drive bays",
+    "RAM": "Slot Count: 4 DIMM slots Max Memory (2DPC): Up to 128GB 4400MT/s non-ECC DDR5 UDIMM",
+    "Network Ports": "Single LAN with Intel i219V 1Gb Single LAN with Marvell AQC113 10GbStarting from:  \u00a3681.00 Configure"
+},
+{
+    "name": "Supermicro Mainstream A+ Server AS -3015A-I",
+    "price": "N/A",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/a/s/as_-3015a-i_callout_angle.jpg.jpg",
+    "category": "tower-servers-and-workstations",
+    "Key Features/Applications": "2D/3D Content Creation, Email/Firewall/Application Server, Designed for small and medium businesses",
+    "CPU": "AMD EPYC\u2122 4004 Series Processor",
+    "Chassis": "Mini-Tower",
+    "Drive": "Default: Total 4 bay(s) 4 front fixed 3.5\" SATA drive bay(s) / Option A: Total 4 bay(s) 4 front fixed 2.5\" SATA drive bay(s)",
+    "RAM": "4 Dual channel ECC/Non-ECC DDR5 unbuffered DIMM slots supporting up to 192GB memory",
+    "Network Ports": "Dual 1GbE LAN (Intel I210-AT)Starting from:  \u00a3642.00 Configure"
+},
+{
+    "name": "Supermicro SuperWorkstation SYS-531A-IL",
+    "price": "\u00a3798.00",
+    "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/s/y/sys-531a-il_main.jpg-2.jpg",
+    "category": "tower-servers-and-workstations",
+    "Key Features/Applications": "N/A",
+    "CPU": "N/A",
+    "Chassis": "N/A",
+    "Drive": "N/A",
+    "RAM": "N/A",
+    "Network Ports": "N/A"
 }
-
 
 
               
        
 ];
-
-// Display products on page load
-document.addEventListener('DOMContentLoaded', displayProducts);
-
-function navigateToProducts(name) {
- window.location.href = `productdetailPage.html?name=${encodeURIComponent(name)}`;
-}

@@ -4,5 +4,5 @@ function navigateToProducts(name) {
 }
 
 function navigateToComponents(name) {
-    window.location.href = `components.html?components=${encodeURIComponent(name)}`;
+    window.location.href = `componentList.html?components=${encodeURIComponent(name)}`;
 }
