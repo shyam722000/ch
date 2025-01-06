@@ -54,27 +54,28 @@
                             <li class="Nav_dropdown">
                                    <a href="#" class="Nav_dropbtn">Servers</a>
                                    <div class="Nav_dropdown-content">
-                                          <a onclick="navigateToProducts('Rackmount')">Rackmount </a>
-                                          <a onclick="navigateToProducts('Storage Servers')">Storage Servers</a>
-                                          <a onclick="navigateToProducts('Liquid Cooling Servers')">Liquid Cooling Servers</a>
-                                          <a onclick="navigateToProducts('ower Servers and Workstations')">Tower Servers and Workstations</a>
+                                          <a onclick="navigateToProducts('rackmount')">Rackmount </a>
+                                          <a onclick="navigateToProducts('Storage Solutions')">Storage Servers</a>
+                                          <a onclick="navigateToProducts('liquid-cooling-servers')">Liquid Cooling Servers</a>
+                                          <a onclick="navigateToProducts('tower-servers-and-workstations')">Tower Servers and Workstations</a>
                                    </div>
                             </li>
                             <li class="Nav_dropdown">
                                    <a href="#" class="Nav_dropbtn">Components</a>
                                    <div class="Nav_dropdown-content">
-                                          <a onclick="navigateToComponents('Motherboard')">Rackmount </a>
-                                          <a onclick="navigateToComponents('Processors')">Storage Servers</a>
-                                          <a onclick="navigateToComponents('Memory')">Liquid Cooling Servers</a>
-                                          <a onclick="navigateToComponents('Graphics card')">Tower Servers and Workstations</a>
+                                          <a onclick="navigateToComponents('Motherboard')">Motherboard </a>
+                                          <a onclick="navigateToComponents('Processors')">Processors</a>
+                                          <a onclick="navigateToComponents('Memory')">Memory</a>
+                                          <a onclick="navigateToComponents('Graphics card')">Graphics card</a>
                                    </div>
                             </li>
+                            
                             <li class="Nav_dropdown">
                                    <a href="#" class="Nav_dropbtn">Solutions</a>
                                    <div class="Nav_dropdown-content">
-                                          <a onclick="navigateToProducts('Storage Servers')">Storage</a>
+                                          <a onclick="navigateToProducts('Storage Solutions')">Storage Servers</a>
                                           <a href="#">Cloud Solutions</a>
-                                          <a onclick="navigateToProducts('Liquid Cooling Servers')">Liquid Cooling Servers</a>
+                                          <a onclick="navigateToProducts('liquid-cooling-servers')">Liquid Cooling Servers</a>
                                    </div>
                             </li>
                             <li><a href="./About.html">About</a></li>
@@ -84,6 +85,10 @@
        </nav>
 
 
+
+
+
+       
 
 
 
@@ -99,124 +104,14 @@
               </div> -->
        </div>
        <!-- productImagaeFullsize and its spec -->
+        <div id="product-container">
 
-       <div class="productimage">
-              <!-- Left Image Section -->
-              <div class="productimage-left">
-                     <div class="image-wrapper">
-                            <img src="./assets/workstation350x200-01.png" alt="Napolitanke Ljesnjak"
-                                   class="main-image" />
-                            <div class="badge">Sale!</div>
-                     </div>
-                     <!-- <div class="image-thumbnails">
-                            <img src="./assets/workstation350x200-01.png" alt="Thumbnail 1" class="thumbnail" />
-                            <img src="./assets/workstation350x200-01.png" alt="Thumbnail 2" class="thumbnail" />
-                            <img src="./assets/workstation350x200-01.png" alt="Thumbnail 3" class="thumbnail" />
-                            <img src="./assets/workstation350x200-01.png" alt="Thumbnail 4" class="thumbnail" />
-                     </div> -->
-              </div>
 
-              <!-- Right Product Details Section -->
-              <div class="productimage-right">
-                     <h1>Napolitanke Ljesnjak</h1>
-                     <div class="rating">
-                            <!-- ⭐⭐⭐⭐⭐ <span>(1 customer review)</span> -->
-                     </div>
-                     <div class="price">
-                            <!-- <span class="current-price">$32</span>
-                            <span class="original-price">$35</span> -->
-                     </div>
-                     <ul class="product-details">
-                            <li>Product Code: FBB00255</li>
-                            <li>Availability: In Stock</li>
-                            <li>Type: Fruits</li>
-                            <li>Shipping: 01 day shipping. (Free pickup today)</li>
-                     </ul>
-                     <div class="quantity-container">
-                            <button class="quantity-btn">-</button>
-                            <input type="number" value="01" class="quantity-input" />
-                            <button class="quantity-btn">+</button>
-                     </div>
-                     <button class="add-to-cart">Add to Cart</button>
-                     <div class="actions">
-                            <button class="action-btn">❤️</button>
-                            <button class="action-btn">🔄</button>
-                     </div>
-                     <div class="categories">
-                            <p><strong>Categories:</strong> Bakery Biscuits</p>
-                     </div>
-
-              </div>
+              
        </div>
 
-
-       <!-- detailedProducts1.css , detailedProducts1.js -->
-
-       <div class="productdescription">
-              <!-- Tab Navigation -->
-              <div class="tabs">
-                     <button class="tab-link active" onclick="openTab(event, 'description')">Description</button>
-                     <button class="tab-link" onclick="openTab(event, 'additional-info')">Additional
-                            Information</button>
-              </div>
-
-              <!-- Description Section -->
-              <div id="description" class="tab-content active">
-                     <h2>Description</h2>
-                     <h3>Nutrient Value & Benefits</h3>
-                     <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, tellus iaculis urna bibendum
-                            in lacus, integer.
-                            Id imperdiet vitae varius sed magnis eu nisi nunc sit. Vel, varius habitant ornare ac
-                            rhoncus.
-                            Consequat risus facilisis ante ipsum netus risus adipiscing sagittis sed.
-                     </p>
-                     <h3>Storage Tips</h3>
-                     <p>
-                            Nisi, tellus iaculis urna bibendum in lacus, integer. Id imperdiet vitae varius sed magnis
-                            eu nisi nunc sit.
-                            Vel, varius habitant ornare ac rhoncus. Consequat risus facilisis ante ipsum netus risus
-                            adipiscing sagittis sed.
-                     </p>
-                     <h3>Unit</h3>
-                     <p>500g</p>
-              </div>
-
-              <!-- Additional Information Section -->
-              <div id="additional-info" class="tab-content">
-                     <h2>Additional Information</h2>
-                     <table>
-                            <tr>
-                                   <th>Weight</th>
-                                   <td>340.0 kg</td>
-                            </tr>
-                            <tr>
-                                   <th>Dimensions</th>
-                                   <td>9.6 × 7.49 × 18.49 cm</td>
-                            </tr>
-                            <tr>
-                                   <th>Ingredient Type</th>
-                                   <td>Vegetarian</td>
-                            </tr>
-                            <tr>
-                                   <th>Brand</th>
-                                   <td>Dmart</td>
-                            </tr>
-                            <tr>
-                                   <th>Item Package Quantity</th>
-                                   <td>1</td>
-                            </tr>
-                            <tr>
-                                   <th>Form</th>
-                                   <td>Larry the Bird</td>
-                            </tr>
-                            <tr>
-                                   <th>Manufacturer</th>
-                                   <td>Dmart</td>
-                            </tr>
-                     </table>
-              </div>
-       </div>
+     
+       
        <!-- foooter -->
        
        <!-- footer -->

@@ -26,6 +26,17 @@
             });
         });
 
+        function navigateToProducts(name) {
+    window.location.href = `productlist.html?category=${encodeURIComponent(name)}`;
+}
+
+function navigateToComponents(name) {
+    window.location.href = `componentList.html?components=${encodeURIComponent(name)}`;
+}
+function navigateproductDetails(name) {
+    window.location.href = `productdetailPage.html?name=${encodeURIComponent(name)}`;
+}
+
     </script>
 
 
@@ -40,48 +51,48 @@
 
 
 
-
     <!-- navBaar -->
     <nav class="Nav_container">
         <div class="Nav_logo">
-            <img src="./logo1.png" alt="Logo">
+               <img src="./logo1.png" alt="Logo">
         </div>
         <div class="Nav_toggle">
-            <span>&#9776;</span>
+               <span>&#9776;</span>
         </div>
         <div class="Nav_links">
-            <ul>
-                <li class="Nav_dropdown">
-                    <a href="#" class="Nav_dropbtn">Servers</a>
-                    <div class="Nav_dropdown-content">
-                        <a href="#">Rackmount</a>
-                        <a href="#">Storage Servers</a>
-                        <a href="#">Liquid Cooling Servers</a>
-                        <a href="#">Tower Servers and Workstations</a>
-                    </div>
-                </li>
-                <li class="Nav_dropdown">
-                    <a href="#" class="Nav_dropbtn">Components</a>
-                    <div class="Nav_dropdown-content">
-                        <a href="#">Motherboard</a>
-                        <a href="#">Processors</a>
-                        <a href="#">Memory</a>
-                        <a href="#">Graphics card</a>
-                    </div>
-                </li>
-                <li class="Nav_dropdown">
-                    <a href="#" class="Nav_dropbtn">Solutions</a>
-                    <div class="Nav_dropdown-content">
-                        <a href="#">Storage</a>
-                        <a href="#">Cloud Solutions</a>
-                        <a href="#">Liquid Cooling Servers</a>
-                    </div>
-                </li>
-                <li><a href="./About.html">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+               <ul>
+                      <li class="Nav_dropdown">
+                             <a href="#" class="Nav_dropbtn">Servers</a>
+                             <div class="Nav_dropdown-content">
+                                    <a onclick="navigateToProducts('rackmount')">Rackmount </a>
+                                    <a onclick="navigateToProducts('Storage Solutions')">Storage Servers</a>
+                                    <a onclick="navigateToProducts('liquid-cooling-servers')">Liquid Cooling Servers</a>
+                                    <a onclick="navigateToProducts('tower-servers-and-workstations')">Tower Servers and Workstations</a>
+                             </div>
+                      </li>
+                      <li class="Nav_dropdown">
+                             <a href="#" class="Nav_dropbtn">Components</a>
+                             <div class="Nav_dropdown-content">
+                                    <a onclick="navigateToComponents('Motherboard')">Motherboard </a>
+                                    <a onclick="navigateToComponents('Processors')">Processors</a>
+                                    <a onclick="navigateToComponents('Memory')">Memory</a>
+                                    <a onclick="navigateToComponents('Graphics card')">Graphics card</a>
+                             </div>
+                      </li>
+                      
+                      <li class="Nav_dropdown">
+                             <a href="#" class="Nav_dropbtn">Solutions</a>
+                             <div class="Nav_dropdown-content">
+                                    <a onclick="navigateToProducts('Storage Solutions')">Storage Servers</a>
+                                    <a href="#">Cloud Solutions</a>
+                                    <a onclick="navigateToProducts('liquid-cooling-servers')">Liquid Cooling Servers</a>
+                             </div>
+                      </li>
+                      <li><a href="./About.html">About</a></li>
+                      <li><a href="./Contact.html">Contact</a></li>
+               </ul>
         </div>
-    </nav>
+ </nav>
 
 
 

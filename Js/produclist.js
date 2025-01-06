@@ -42,7 +42,7 @@ function displayProducts() {
                     <a href="${product.url}" target="_blank">Learn More</a>
                 </p>
             </div>
-            <div class="congigur" onclick="navigateToProducts('${product.name}')">
+            <div class="congigur" onclick="navigateproductDetails('${product.name}')">
                 Configure Now
             </div>
         `;
@@ -52,6 +52,18 @@ function displayProducts() {
 
 document.addEventListener('DOMContentLoaded', displayProducts);
 
+
+function navigateproductDetails(name) {
+    window.location.href = `productdetailPage.html?name=${encodeURIComponent(name)}`;
+}
+
+function navigateToProducts(name) {
+    window.location.href = `productlist.html?category=${encodeURIComponent(name)}`;
+}
+
+function navigateToComponents(name) {
+    window.location.href = `componentList.html?components=${encodeURIComponent(name)}`;
+}
 
 
 
