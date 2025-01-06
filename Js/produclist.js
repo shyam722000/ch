@@ -44,7 +44,7 @@ function displayProducts() {
             </div>
             <div class="congigur" onclick="navigateToProducts('${product.name}')">
                <p class="Configuretest">Configure Now</p>
-            </div>
+        
         `;
         productListContainer.appendChild(productDiv);
     });
@@ -52,6 +52,18 @@ function displayProducts() {
 
 document.addEventListener('DOMContentLoaded', displayProducts);
 
+
+function navigateproductDetails(name) {
+    window.location.href = `productdetailPage.html?name=${encodeURIComponent(name)}`;
+}
+
+function navigateToProducts(name) {
+    window.location.href = `productlist.html?category=${encodeURIComponent(name)}`;
+}
+
+function navigateToComponents(name) {
+    window.location.href = `componentList.html?components=${encodeURIComponent(name)}`;
+}
 
 
 
