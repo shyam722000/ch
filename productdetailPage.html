@@ -26,7 +26,53 @@
               document.getElementById(tabId).classList.add('active');
               event.currentTarget.classList.add('active');
        }
+
+
+     
 </script>
+<script>
+       // Wait for the DOM to load before attaching event listeners
+       document.addEventListener('DOMContentLoaded', () => {
+           const addToCartButton = document.querySelector('.add-to-cart');
+           const enquiryModal = document.getElementById('enquiry-modal');
+           const closeModalButton = document.querySelector('.close-btn');
+   
+           // Open Modal
+           addToCartButton.addEventListener('click', () => {
+               enquiryModal.style.display = 'flex';
+           });
+   
+           // Close Modal
+           closeModalButton.addEventListener('click', () => {
+               enquiryModal.style.display = 'none';
+           });
+   
+           // Send Enquiry via WhatsApp
+           window.sendEnquiry = function () {
+               const name = document.getElementById('name').value;
+               const phone = document.getElementById('phone').value;
+               const productName = document.getElementById('productName').value;
+               const description = document.getElementById('description').value;
+   
+               if (!name || !phone || !description) {
+                   alert('Please fill all fields.');
+                   return;
+               }
+   
+               const message = `Hello, I would like to enquire about the following product:%0A%0A` +
+                   `Name: ${name}%0APhone: ${phone}%0AProduct Name: ${productName}%0ADescription: ${description}`;
+   
+               const whatsappUrl = `https://wa.me/8157039774?text=${encodeURIComponent(message)}`;
+   
+               // Redirect to WhatsApp
+               window.open(whatsappUrl, '_blank');
+   
+               // Close the modal after submission
+               enquiryModal.style.display = 'none';
+           };
+       });
+   </script>
+   
 
 
 <body>
@@ -137,7 +183,7 @@
                             <input type="number" value="01" class="quantity-input" />
                             <button class="quantity-btn">+</button>
                      </div>
-                     <button class="add-to-cart">Add to Cart</button>
+                     <button class="add-to-cart">Enquire more</button>
                      <div class="actions">
                             <button class="action-btn">❤️</button>
                             <button class="action-btn">🔄</button>
@@ -148,6 +194,31 @@
 
               </div>
        </div>
+
+
+<!-- Popup Modal for Enquiry Form -->
+<div id="enquiry-modal" class="modal">
+       <div class="modal-content">
+           <span class="close-btn" onclick="closeModal()">&times;</span>
+           <h2>Enquiry Form</h2>
+           <form id="enquiryForm">
+               <label for="name">Name:</label>
+               <input type="text" id="name" name="name" required>
+   
+               <label for="phone">Phone Number:</label>
+               <input type="tel" id="phone" name="phone" required>
+   
+               <label for="productName">Product Name:</label>
+               <input type="text" id="productName" name="productName" value="Napolitanke Ljesnjak" readonly>
+   
+               <label for="description">Description:</label>
+               <textarea id="description" name="description" rows="4" required></textarea>
+   
+               <button type="button" onclick="sendEnquiry()">Submit</button>
+           </form>
+       </div>
+   </div>
+   
 
 
        <!-- detailedProducts1.css , detailedProducts1.js -->
