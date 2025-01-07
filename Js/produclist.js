@@ -42,9 +42,9 @@ function displayProducts() {
                     <a href="${product.url}" target="_blank">Learn More</a>
                 </p>
             </div>
-            <div class="congigur" onclick="navigateproductDetails('${product.name}')">
-                Configure Now
-            </div>
+            <div class="congigur" onclick="navigateToProducts('${product.name}')">
+               <p class="Configuretest">Configure Now</p>
+        
         `;
         productListContainer.appendChild(productDiv);
     });

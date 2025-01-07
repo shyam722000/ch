@@ -26,7 +26,53 @@
               document.getElementById(tabId).classList.add('active');
               event.currentTarget.classList.add('active');
        }
+
+
+     
 </script>
+<script>
+       // Wait for the DOM to load before attaching event listeners
+       document.addEventListener('DOMContentLoaded', () => {
+           const addToCartButton = document.querySelector('.add-to-cart');
+           const enquiryModal = document.getElementById('enquiry-modal');
+           const closeModalButton = document.querySelector('.close-btn');
+   
+           // Open Modal
+           addToCartButton.addEventListener('click', () => {
+               enquiryModal.style.display = 'flex';
+           });
+   
+           // Close Modal
+           closeModalButton.addEventListener('click', () => {
+               enquiryModal.style.display = 'none';
+           });
+   
+           // Send Enquiry via WhatsApp
+           window.sendEnquiry = function () {
+               const name = document.getElementById('name').value;
+               const phone = document.getElementById('phone').value;
+               const productName = document.getElementById('productName').value;
+               const description = document.getElementById('description').value;
+   
+               if (!name || !phone || !description) {
+                   alert('Please fill all fields.');
+                   return;
+               }
+   
+               const message = `Hello, I would like to enquire about the following product:%0A%0A` +
+                   `Name: ${name}%0APhone: ${phone}%0AProduct Name: ${productName}%0ADescription: ${description}`;
+   
+               const whatsappUrl = `https://wa.me/8157039774?text=${encodeURIComponent(message)}`;
+   
+               // Redirect to WhatsApp
+               window.open(whatsappUrl, '_blank');
+   
+               // Close the modal after submission
+               enquiryModal.style.display = 'none';
+           };
+       });
+   </script>
+   
 
 
 <body>
@@ -107,6 +153,132 @@
         <div id="product-container">
 
 
+              <!-- Right Product Details Section -->
+              <div class="productimage-right">
+                     <h1>Napolitanke Ljesnjak</h1>
+                     <div class="rating">
+                            <!-- ⭐⭐⭐⭐⭐ <span>(1 customer review)</span> -->
+                     </div>
+                     <div class="price">
+                            <!-- <span class="current-price">$32</span>
+                            <span class="original-price">$35</span> -->
+                     </div>
+                     <ul class="product-details">
+                            <li>Product Code: FBB00255</li>
+                            <li>Availability: In Stock</li>
+                            <li>Type: Fruits</li>
+                            <li>Shipping: 01 day shipping. (Free pickup today)</li>
+                     </ul>
+                     <div class="quantity-container">
+                            <button class="quantity-btn">-</button>
+                            <input type="number" value="01" class="quantity-input" />
+                            <button class="quantity-btn">+</button>
+                     </div>
+                     <button class="add-to-cart">Enquire more</button>
+                     <div class="actions">
+                            <button class="action-btn">❤️</button>
+                            <button class="action-btn">🔄</button>
+                     </div>
+                     <div class="categories">
+                            <p><strong>Categories:</strong> Bakery Biscuits</p>
+                     </div>
+
+              </div>
+       </div>
+
+
+<!-- Popup Modal for Enquiry Form -->
+<div id="enquiry-modal" class="modal">
+       <div class="modal-content">
+           <span class="close-btn" onclick="closeModal()">&times;</span>
+           <h2>Enquiry Form</h2>
+           <form id="enquiryForm">
+               <label for="name">Name:</label>
+               <input type="text" id="name" name="name" required>
+   
+               <label for="phone">Phone Number:</label>
+               <input type="tel" id="phone" name="phone" required>
+   
+               <label for="productName">Product Name:</label>
+               <input type="text" id="productName" name="productName" value="Napolitanke Ljesnjak" readonly>
+   
+               <label for="description">Description:</label>
+               <textarea id="description" name="description" rows="4" required></textarea>
+   
+               <button type="button" onclick="sendEnquiry()">Submit</button>
+           </form>
+       </div>
+   </div>
+   
+
+
+       <!-- detailedProducts1.css , detailedProducts1.js -->
+
+       <div class="productdescription">
+              <!-- Tab Navigation -->
+              <div class="tabs">
+                     <button class="tab-link active" onclick="openTab(event, 'description')">Description</button>
+                     <button class="tab-link" onclick="openTab(event, 'additional-info')">Additional
+                            Information</button>
+              </div>
+
+              <!-- Description Section -->
+              <div id="description" class="tab-content active">
+                     <h2>Description</h2>
+                     <h3>Nutrient Value & Benefits</h3>
+                     <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, tellus iaculis urna bibendum
+                            in lacus, integer.
+                            Id imperdiet vitae varius sed magnis eu nisi nunc sit. Vel, varius habitant ornare ac
+                            rhoncus.
+                            Consequat risus facilisis ante ipsum netus risus adipiscing sagittis sed.
+                     </p>
+                     <h3>Storage Tips</h3>
+                     <p>
+                            Nisi, tellus iaculis urna bibendum in lacus, integer. Id imperdiet vitae varius sed magnis
+                            eu nisi nunc sit.
+                            Vel, varius habitant ornare ac rhoncus. Consequat risus facilisis ante ipsum netus risus
+                            adipiscing sagittis sed.
+                     </p>
+                     <h3>Unit</h3>
+                     <p>500g</p>
+              </div>
+
+              <!-- Additional Information Section -->
+              <div id="additional-info" class="tab-content">
+                     <h2>Additional Information</h2>
+                     <table>
+                            <tr>
+                                   <th>Weight</th>
+                                   <td>340.0 kg</td>
+                            </tr>
+                            <tr>
+                                   <th>Dimensions</th>
+                                   <td>9.6 × 7.49 × 18.49 cm</td>
+                            </tr>
+                            <tr>
+                                   <th>Ingredient Type</th>
+                                   <td>Vegetarian</td>
+                            </tr>
+                            <tr>
+                                   <th>Brand</th>
+                                   <td>Dmart</td>
+                            </tr>
+                            <tr>
+                                   <th>Item Package Quantity</th>
+                                   <td>1</td>
+                            </tr>
+                            <tr>
+                                   <th>Form</th>
+                                   <td>Larry the Bird</td>
+                            </tr>
+                            <tr>
+                                   <th>Manufacturer</th>
+                                   <td>Dmart</td>
+                            </tr>
+                     </table>
+              </div>
+       </div>
               
        </div>
 
