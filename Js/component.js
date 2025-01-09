@@ -273,7 +273,359 @@ const products = [
         "Processor": "2nd Gen Intel\u00ae Xeon\u00ae Scalable Processors and Intel\u00ae Xeon\u00ae Scalable Processors, , Single Socket LGA-3647 (Socket P) supported, CPU TDP support Up to 205W TDP",
         "Memory": "Up to 1.5TB 3DS ECC RDIMM, DDR4-2933MHz; Up to 1.5TB 3DS ECC LRDIMM, DDR4-2933MHz, in 6 DIMM slots",
         "Expansion Slots": "1 PCIe 3.0 x8 (in x16 slot), 1 PCIe 3.0 x32 Left Riser Slot, M.2 Interface: PCIe 3.0 x4; SATA, Form Factor: 2280, 22110, Key: M-Key"
-    }
+    },
+        {
+            "name": "Intel Core i3-10100",
+            "price": "\u00a393.60",
+            "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/n/intel_10th_gen_core_i3_badge_1.jpg",
+            "category": "PROCESSORS",
+            "Key Features/Applications": "N/A",
+            "Total Cores": "4",
+            "Total Threads": "8",
+            "Max Turbo Frequency": "4.30 GHz",
+            "Processor Base Frequency": "3.60 GHz",
+            "Cache": "6 MB Intel Smart Cache",
+            "Bus Speed": "8 GT/s",
+            "TDP": "65 WStarting from:  \u00a31,230.00 Configure"
+        },
+        {
+            "name": "Intel\u00ae Core\u2122 i9 processor 14900",
+            "price": "\u00a3630.00",
+            "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/n/intel_10th_gen_core_i3_badge_1.jpg",
+            "category":"PROCESSORS",
+            "Key Features/Applications": "N/A",
+            "Total Cores": "N/A",
+            "Total Threads": "N/A",
+            "Max Turbo Frequency": "N/A",
+            "Processor Base Frequency": "N/A",
+            "Cache": "N/A",
+            "Bus Speed": "N/A",
+            "TDP": "N/A"
+        },
+        {
+            "name": "Intel Xeon Gold 6230 Processor",
+            "price": "\u00a32,488.80",
+            "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/n/intel_10th_gen_core_i3_badge_1.jpg",
+            "category": "PROCESSORS",
+            "Key Features/Applications": "N/A",
+            "Total Cores": "20",
+            "Total Threads": "40",
+            "Max Turbo Frequency": "3.90 GHz",
+            "Processor Base Frequency": "2.10 GHz",
+            "Cache": "27.5 MBTDP:125 W",
+            "Bus Speed": "8 GT/sStarting from:  \u00a31,230.00 Configure",
+            "TDP": "125 WBus Speed:8 GT/sStarting from:  \u00a31,230.00 Configure"
+        },
+        {
+            "name": "Intel Xeon Silver 4214 Processor",
+            "price": "\u00a3874.80",
+            "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/n/intel_10th_gen_core_i3_badge_1.jpg",
+            "category":"PROCESSORS",
+            "Key Features/Applications": "N/A",
+            "Total Cores": "12",
+            "Total Threads": "24",
+            "Max Turbo Frequency": "3.20 GHz",
+            "Processor Base Frequency": "2.20 GHz",
+            "Cache": "16.5 MBTDP:85 W",
+            "Bus Speed": "8 GT/sStarting from:  \u00a31,230.00 Configure",
+            "TDP": "85 WBus Speed:8 GT/sStarting from:  \u00a31,230.00 Configure"
+        },
+        {
+            "name": "AMD EPYC\u2122 7302P Processor",
+            "price": "\u00a3866.40",
+            "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/n/intel_10th_gen_core_i3_badge_1.jpg",
+             "category":"PROCESSORS",
+            "Key Features/Applications": "N/A",
+            "Total Cores": "16",
+            "Total Threads": "32",
+            "Max Turbo Frequency": "3.30 GHz",
+            "Processor Base Frequency": "3.00 GHz",
+            "Cache": "128 MBTDP:155 W",
+            "Bus Speed": "8 GT/sStarting from:  \u00a31,230.00 Configure",
+            "TDP": "155 WBus Speed:8 GT/sStarting from:  \u00a31,230.00 Configure"
+        },
+        {
+            "name": "AMD EPYC\u2122 7313P Processor",
+            "price": "\u00a3862.80",
+            "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/n/intel_10th_gen_core_i3_badge_1.jpg",
+            "category": "PROCESSORS",
+            "Key Features/Applications": "N/A",
+            "Total Cores": "16",
+            "Total Threads": "32",
+            "Max Turbo Frequency": "3.70 GHz",
+            "Processor Base Frequency": "3.00 GHz",
+            "Cache": "128 MBTDP:155 WStarting from:  \u00a31,230.00",
+            "Bus Speed": "8 GT/sConfigure",
+            "TDP": "155 WStarting from:  \u00a31,230.00 Bus Speed:8 GT/sConfigure"
+        },
+        {
+            "name": "Intel\u00ae Xeon\u00ae E-2414 Processor",
+            "price": "\u00a3242.40",
+            "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/n/intel_10th_gen_core_i3_badge_1.jpg",
+            "category": "PROCESSORS",
+            "Key Features/Applications": "N/A",
+            "Total Cores": "N/A",
+            "Total Threads": "N/A",
+            "Max Turbo Frequency": "N/A",
+            "Processor Base Frequency": "N/A",
+            "Cache": "N/A",
+            "Bus Speed": "N/A",
+            "TDP": "N/A"
+        },
+        {
+            "name": "Intel Xeon E-2244G Processor",
+            "price": "\u00a3366.00",
+            "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/n/intel_10th_gen_core_i3_badge_1.jpg",
+            "category": "PROCESSORS",
+            "Key Features/Applications": "N/A",
+            "Total Cores": "N/A",
+            "Total Threads": "N/A",
+            "Max Turbo Frequency": "N/A",
+            "Processor Base Frequency": "N/A",
+            "Cache": "N/A",
+            "Bus Speed": "N/A",
+            "TDP": "N/A"
+        },
+        {
+            "name": "Intel Xeon Silver 4314 Processor (16 Cores, 2.4 Ghz)",
+            "price": "\u00a3879.60",
+            "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/n/intel_10th_gen_core_i3_badge_1.jpg",
+            "category": "PROCESSORS",
+            "Key Features/Applications": "N/A",
+            "Total Cores": "16",
+            "Total Threads": "32",
+            "Max Turbo Frequency": "3.40 GHz",
+            "Processor Base Frequency": "2.40 GHz",
+            "Cache": "24 MBTDP:135 W",
+            "Bus Speed": "8 GT/sStarting from:  \u00a31,230.00 Configure",
+            "TDP": "135 WBus Speed:8 GT/sStarting from:  \u00a31,230.00 Configure"
+        },
+        {
+            "name": "Intel Xeon Silver 4310 Processor  (12 Cores, 2.10 GHz)",
+            "price": "\u00a3638.40",
+            "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/n/intel_10th_gen_core_i3_badge_1.jpg",
+            "catogory": "PROCESSORS",
+            "Key Features/Applications": "N/A",
+            "Total Cores": "12",
+            "Total Threads": "24",
+            "Max Turbo Frequency": "3.30 GHz",
+            "Processor Base Frequency": "2.10 GHz",
+            "Cache": "18 MBTDP:120 W",
+            "Bus Speed": "8 GT/sStarting from:  \u00a31,230.00 Configure",
+            "TDP": "120 WBus Speed:8 GT/sStarting from:  \u00a31,230.00 Configure"
+        },
+        {
+            "name": "Intel Xeon Gold 6330 Processor (28 Cores, 2.00 GHz)",
+            "price": "\u00a32,204.40",
+            "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/n/intel_10th_gen_core_i3_badge_1.jpg",
+            "catogory": "PROCESSORS",
+            "Key Features/Applications": "N/A",
+            "Total Cores": "28",
+            "Total Threads": "56",
+            "Max Turbo Frequency": "3.10 GHz",
+            "Processor Base Frequency": "2.00 GHz",
+            "Cache": "42 MBTDP:205 W",
+            "Bus Speed": "8 GT/sStarting from:  \u00a31,230.00 Configure",
+            "TDP": "205 WBus Speed:8 GT/sStarting from:  \u00a31,230.00 Configure"
+        },
+        {
+            "name": "AMD EPYC\u2122 7443P Processor",
+            "price": "\u00a31,197.60",
+            "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/n/intel_10th_gen_core_i3_badge_1.jpg",
+            "catogory": "PROCESSORS",
+            "Key Features/Applications": "N/A",
+            "Total Cores": "24",
+            "Total Threads": "48",
+            "Max Turbo Frequency": "4.00 GHz",
+            "Processor Base Frequency": "2.85 GHz",
+            "Cache": "128 MBTDP:200 W",
+            "Bus Speed": "8 GT/sStarting from:  \u00a31,230.00 Configure",
+            "TDP": "200 WBus Speed:8 GT/sStarting from:  \u00a31,230.00 Configure"
+        },
+        {
+            "name": "AMD EPYC\u2122 7543 Processor",
+            "price": "\u00a32,386.80",
+            "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/n/intel_10th_gen_core_i3_badge_1.jpg",
+            "catogory": "PROCESSORS",
+            "Key Features/Applications": "N/A",
+            "Total Cores": "32",
+            "Total Threads": "64",
+            "Max Turbo Frequency": "3.70 GHz",
+            "Processor Base Frequency": "2.80 GHz",
+            "Cache": "256 MBTDP:225 W",
+            "Bus Speed": "8 GT/sStarting from:  \u00a31,230.00 Configure",
+            "TDP": "225 WBus Speed:8 GT/sStarting from:  \u00a31,230.00 Configure"
+        },
+        {
+            "name": "Intel\u00ae Xeon\u00ae E-2336 Processor",
+            "price": "\u00a3355.20",
+            "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/n/intel_10th_gen_core_i3_badge_1.jpg",
+            "catogory": "PROCESSORS",
+            "Key Features/Applications": "N/A",
+            "Total Cores": "6",
+            "Total Threads": "12",
+            "Max Turbo Frequency": "4.80 GHz",
+            "Processor Base Frequency": "2.90 GHz",
+            "Cache": "12 MB Intel Smart Cache",
+            "Bus Speed": "8 GT/s",
+            "TDP": "65 WStarting from:  \u00a31,230.00 Configure"
+        },
+        {
+            "name": "Intel\u00ae Xeon\u00ae E-2378G",
+            "price": "\u00a3621.60",
+            "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/n/intel_10th_gen_core_i3_badge_1.jpg",
+            "catogory": "PROCESSORS",
+            "Key Features/Applications": "N/A",
+            "Total Cores": "8",
+            "Total Threads": "16",
+            "Max Turbo Frequency": "5.10 GHz",
+            "Processor Base Frequency": "2.80 GHz",
+            "Cache": "16 MB Intel Smart Cache",
+            "Bus Speed": "8 GT/s",
+            "TDP": "80 WStarting from:  \u00a31,230.00 Configure"
+        },
+        {
+            "name": "Intel\u00ae Xeon\u00ae E-2388G",
+            "price": "\u00a3728.40",
+            "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/n/intel_10th_gen_core_i3_badge_1.jpg",
+            "catogory": "PROCESSORS",
+            "Key Features/Applications": "N/A",
+            "Total Cores": "8",
+            "Total Threads": "16",
+            "Max Turbo Frequency": "5.10 GHz",
+            "Processor Base Frequency": "3.20 GHz",
+            "Cache": "16 MB Intel Smart Cache",
+            "Bus Speed": "8 GT/s",
+            "TDP": "95 WStarting from:  \u00a31,230.00 Configure"
+        },
+        {
+            "name": "AMD EPYC 7452 Processor",
+            "price": "\u00a3498.00",
+            "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/n/intel_10th_gen_core_i3_badge_1.jpg",
+            "catogory": "PROCESSORS",
+            "Key Features/Applications": "N/A",
+            "Total Cores": "N/A",
+            "Total Threads": "N/A",
+            "Max Turbo Frequency": "N/A",
+            "Processor Base Frequency": "N/A",
+            "Cache": "N/A",
+            "Bus Speed": "N/A",
+            "TDP": "N/A"
+        },
+        {
+            "name": "Intel\u00ae Xeon\u00ae Gold 5320 Processor (26 Cores, 2.20 GHz)",
+            "price": "\u00a32,019.60",
+            "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/n/intel_10th_gen_core_i3_badge_1.jpg",
+            "catogory": "PROCESSORS",
+            "Key Features/Applications": "N/A",
+            "Total Cores": "26",
+            "Total Threads": "52",
+            "Max Turbo Frequency": "3.40 GHz",
+            "Processor Base Frequency": "2.20 GHz",
+            "Cache": "39 MB",
+            "Bus Speed": "11.2 GT/s",
+            "TDP": "185 WStarting from:  \u00a31,230.00 Configure"
+        },
+        {
+            "name": "AMD Ryzen 9 7950X",
+            "price": "\u00a3518.40",
+            "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/n/intel_10th_gen_core_i3_badge_1.jpg",
+            "catogory": "PROCESSORS",
+            "Key Features/Applications": "N/A",
+            "Total Cores": "16",
+            "Total Threads": "32",
+            "Max Turbo Frequency": "5.70 GHz",
+            "Processor Base Frequency": "4.50 GHz",
+            "Cache": "64 MBTDP:170 WStarting from:  \u00a31,230.00 Configure",
+            "Bus Speed": "N/A",
+            "TDP": "170 WStarting from:  \u00a31,230.00 Configure"
+        },
+        {
+            "name": "AMD Ryzen 9 7900X",
+            "price": "\u00a3403.20",
+            "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/n/intel_10th_gen_core_i3_badge_1.jpg",
+            "catogory": "PROCESSORS",
+            "Key Features/Applications": "N/A",
+            "Total Cores": "12",
+            "Total Threads": "24",
+            "Max Turbo Frequency": "5.60 GHz",
+            "Processor Base Frequency": "4.70 GHz",
+            "Cache": "64 MBTDP:170 WStarting from:  \u00a31,230.00 Configure",
+            "Bus Speed": "N/A",
+            "TDP": "170 WStarting from:  \u00a31,230.00 Configure"
+        },
+        {
+            "name": "AMD Ryzen 9 7900",
+            "price": "\u00a3391.20",
+            "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/n/intel_10th_gen_core_i3_badge_1.jpg",
+            "catogory": "PROCESSORS",
+            "Key Features/Applications": "N/A",
+            "Total Cores": "12",
+            "Total Threads": "24",
+            "Max Turbo Frequency": "5.40 GHz",
+            "Processor Base Frequency": "3.70 GHz",
+            "Cache": "64 MBTDP:65 WStarting from:  \u00a31,230.00 Configure",
+            "Bus Speed": "N/A",
+            "TDP": "65 WStarting from:  \u00a31,230.00 Configure"
+        },
+        {
+            "name": "AMD Ryzen 7 7700X",
+            "price": "\u00a3345.60",
+            "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/n/intel_10th_gen_core_i3_badge_1.jpg",
+            "catogory": "PROCESSORS",
+            "Key Features/Applications": "N/A",
+            "Total Cores": "8",
+            "Total Threads": "16",
+            "Max Turbo Frequency": "5.40 GHz",
+            "Processor Base Frequency": "4.50 GHz",
+            "Cache": "32 MBTDP:105 WStarting from:  \u00a31,230.00 Configure",
+            "Bus Speed": "N/A",
+            "TDP": "105 WStarting from:  \u00a31,230.00 Configure"
+        },
+        {
+            "name": "Intel\u00ae Xeon\u00ae Gold 5418Y Processor",
+            "price": "\u00a31,704.00",
+            "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/n/intel_10th_gen_core_i3_badge_1.jpg",
+            "catogory": "PROCESSORS",
+            "Key Features/Applications": "N/A",
+            "Total Cores": "24",
+            "Total Threads": "48",
+            "Max Turbo Frequency": "3.80 GHz",
+            "Processor Base Frequency": "2.00 GHz",
+            "Cache": "45 MB",
+            "Bus Speed": "16 GT/s",
+            "TDP": "185 WStarting from:  \u00a31,230.00 Configure"
+        },
+        {
+            "name": "Intel Xeon Platinum 8260 Processor",
+            "price": "\u00a35,985.60",
+            "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/n/intel_10th_gen_core_i3_badge_1.jpg",
+            "catogory": "PROCESSORS",
+            "Key Features/Applications": "N/A",
+            "Total Cores": "24",
+            "Total Threads": "48",
+            "Max Turbo Frequency": "3.90 GHz",
+            "Processor Base Frequency": "2.40 GHz",
+            "Cache": "35.75 MBTDP:165 WStarting from:  \u00a31,230.00 Configure",
+            "Bus Speed": "N/A",
+            "TDP": "165 WStarting from:  \u00a31,230.00 Configure"
+        },
+        {
+            "name": "Intel\u00ae Core\u2122 i9-10940X X-series",
+            "price": "\u00a3403.20",
+            "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/n/intel_10th_gen_core_i3_badge_1.jpg",
+            "catogory": "PROCESSORS",
+            "Key Features/Applications": "N/A",
+            "Total Cores": "14",
+            "Total Threads": "28",
+            "Max Turbo Frequency": "4.60 GHz",
+            "Processor Base Frequency": "3.30 GHz",
+            "Cache": "19.25 MB Intel Smart Cache",
+            "Bus Speed": "8 GT/s DMI3",
+            "TDP": "165 WStarting from:  \u00a31,230.00 Configure"
+        }
+    
+    
 ]
 
 
@@ -285,33 +637,30 @@ const products = [
 
 
 function displayProducts() {
-       // Get category from URL query parameters
        const queryString = window.location.search;
        const urlParams = new URLSearchParams(queryString);
        const category = urlParams.get('components');
        console.log('Category from URL:', category);
        console.log('test')
    
-       // Get the product list container
        const productListContainer = document.querySelector('.product-list');
-       productListContainer.innerHTML = ''; // Clear existing content
+       productListContainer.innerHTML = ''; 
    
    
        if (!category) {
            productListContainer.innerHTML = '<p>Please select a valid category.</p>';
            return;
        }
-   
-       // Filter products based on the category
+
        const filteredProducts = products.filter(product => product.category === category);
-   
-       // Display message if no products are found
+
+
        if (filteredProducts.length === 0) {
            productListContainer.innerHTML = '<p>No products found for this category.</p>';
            return;
        }
-   
-       // Display filtered products
+
+
        filteredProducts.forEach(product => {
            const productDiv = document.createElement('div');
            productDiv.className = 'product1';
@@ -338,23 +687,16 @@ function displayProducts() {
 
 
 
-   
-
-
-
-
-
-
 document.addEventListener('DOMContentLoaded', displayProducts);
 
 
-function navigateToProducts(name) {
-    window.location.href = `productlist.html?category=${encodeURIComponent(name)}`;
-}
 
-function navigateToComponents(name) {
-    window.location.href = `componentList.html?components=${encodeURIComponent(name)}`;
-}
-function navigateproductDetails(name) {
-    window.location.href = `productdetailPage.html?name=${encodeURIComponent(name)}`;
-}
+function navigateToProducts(name) 
+{window.location.href = `productlist.html?category=${encodeURIComponent(name)}`;}
+
+function navigateToComponents(name) 
+{window.location.href = `componentList.html?components=${encodeURIComponent(name)}`;}
+
+
+function navigateproductDetails(name) 
+{window.location.href = `productdetailPage.html?name=${encodeURIComponent(name)}`;}

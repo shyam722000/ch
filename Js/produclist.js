@@ -43,8 +43,8 @@ function displayProducts() {
                 </p>
             </div>
             <div class="congigur" onclick="navigateproductDetails('${product.name}')">
-                Configure Now
-            </div>
+               <p class="Configuretest">Configure Now</p>
+        
         `;
         productListContainer.appendChild(productDiv);
     });

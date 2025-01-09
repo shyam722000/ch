@@ -26,7 +26,53 @@
               document.getElementById(tabId).classList.add('active');
               event.currentTarget.classList.add('active');
        }
+
+
+     
 </script>
+<script>
+       // Wait for the DOM to load before attaching event listeners
+       document.addEventListener('DOMContentLoaded', () => {
+           const addToCartButton = document.querySelector('.add-to-cart');
+           const enquiryModal = document.getElementById('enquiry-modal');
+           const closeModalButton = document.querySelector('.close-btn');
+   
+           // Open Modal
+           addToCartButton.addEventListener('click', () => {
+               enquiryModal.style.display = 'flex';
+           });
+   
+           // Close Modal
+           closeModalButton.addEventListener('click', () => {
+               enquiryModal.style.display = 'none';
+           });
+   
+           // Send Enquiry via WhatsApp
+           window.sendEnquiry = function () {
+               const name = document.getElementById('name').value;
+               const phone = document.getElementById('phone').value;
+               const productName = document.getElementById('productName').value;
+               const description = document.getElementById('description').value;
+   
+               if (!name || !phone || !description) {
+                   alert('Please fill all fields.');
+                   return;
+               }
+   
+               const message = `Hello, I would like to enquire about the following product:%0A%0A` +
+                   `Name: ${name}%0APhone: ${phone}%0AProduct Name: ${productName}%0ADescription: ${description}`;
+   
+               const whatsappUrl = `https://wa.me/8157039774?text=${encodeURIComponent(message)}`;
+   
+               // Redirect to WhatsApp
+               window.open(whatsappUrl, '_blank');
+   
+               // Close the modal after submission
+               enquiryModal.style.display = 'none';
+           };
+       });
+   </script>
+   
 
 
 <body>
@@ -107,7 +153,7 @@
         <div id="product-container">
 
 
-              
+             
        </div>
 
      
