@@ -672,9 +672,7 @@ function displayProducts() {
                <div class="productContent">
                    <p>${product.name}</p>
                    <p class="Chassis">Cores: ${product["Total Cores"]}</p>
-                   <p class="learn_more">
-                       <a href="${product.ur}" target="_blank">Learn More</a>
-                   </p>
+
                </div>
                <div class="congigur" onclick="navigatecomponentDetails('${product.name}')">
                    Configure Now

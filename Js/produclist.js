@@ -38,9 +38,7 @@ function displayProducts() {
             <div class="productContent">
                 <p>${product.name}</p>
                 <p class="Chassis">Chassis: ${product.Chassis}</p>
-                <p class="learn_more">
-                    <a href="${product.url}" target="_blank">Learn More</a>
-                </p>
+           
             </div>
             <div class="congigur" onclick="navigateproductDetails('${product.name}')">
                <p class="Configuretest">Configure Now</p>
