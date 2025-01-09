@@ -432,9 +432,8 @@ p {
   }
 
   .sub-catogory-list {
-    width: 100%;
-    height: auto;
-  }
+    display: none;
+   }
 
   .product-list {
     width: 100%;
@@ -472,7 +471,7 @@ p {
   }
 
   .sub-catogory-list {
-    width: 30%;
+   display: none;
   }
 
   .product-list {
