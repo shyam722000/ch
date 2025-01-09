@@ -671,12 +671,12 @@ function displayProducts() {
                </div>
                <div class="productContent">
                    <p>${product.name}</p>
-                   <p class="Chassis">Chassis: ${product.Chassis}</p>
+                   <p class="Chassis">Cores: ${product["Total Cores"]}</p>
                    <p class="learn_more">
-                       <a href="${product.url}" target="_blank">Learn More</a>
+                       <a href="${product.ur}" target="_blank">Learn More</a>
                    </p>
                </div>
-               <div class="congigur" onclick="navigateToProducts('${product.name}')">
+               <div class="congigur" onclick="navigatecomponentDetails('${product.name}')">
                    Configure Now
                </div>
            `;
@@ -690,12 +690,15 @@ function displayProducts() {
 document.addEventListener('DOMContentLoaded', displayProducts);
 
 
-
 function navigateToProducts(name) 
 {window.location.href = `productlist.html?category=${encodeURIComponent(name)}`;}
 
 function navigateToComponents(name) 
 {window.location.href = `componentList.html?components=${encodeURIComponent(name)}`;}
+
+
+function navigatecomponentDetails(name) 
+{window.location.href = `componentdetailPage.html?name=${encodeURIComponent(name)}`;}
 
 
 function navigateproductDetails(name) 
