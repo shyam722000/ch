@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", (name, catogory) => {
     const addToCartButton = document.querySelector('.add-to-cart');
     const enquiryModal = document.getElementById('enquiry-modal');
 

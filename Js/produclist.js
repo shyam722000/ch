@@ -40,7 +40,7 @@ function displayProducts() {
                 <p class="Chassis">Chassis: ${product.Chassis}</p>
            
             </div>
-            <div class="congigur" onclick="navigateproductDetails('${product.name}')">
+            <div class="configure" onclick="navigateproductDetails('${product.name}')">
                <p class="Configuretest">Configure Now</p>
         
         `;

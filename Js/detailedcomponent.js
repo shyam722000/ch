@@ -624,7 +624,188 @@ const products =[
                "Cache": "19.25 MB Intel Smart Cache",
                "Bus Speed": "8 GT/s DMI3",
                "TDP": "165 WStarting from:  \u00a31,230.00 Configure"
-           }
+           },
+           {
+
+        "name": "Micron 32GB DDR4-3200Mhz RDIMM Memory",
+        "price": "\u00a3103.20",
+        "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/m/image.png",
+        "category": "Memory",
+        "Size/Capacity": "32GB",
+        "Memory Type": "DDR4 RDIMM",
+        "Speed": "3200 MHz",
+        "Pins": "288Starting from:  \u00a31,230.00 Configure"
+    },
+    {
+        "name": "Micron 8GB 3200Mhz DDR4 RDIMM",
+        "price": "\u00a362.40",
+        "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/m/image_5_.jpg",
+        "category": "Memory",
+        "Size/Capacity": "8GB",
+        "Memory Type": "DDR4 RDIMM",
+        "Speed": "3200 MHz",
+        "Pins": "288Starting from:  \u00a31,230.00 Configure"
+    },
+    {
+        "name": "Micron 64GB DDR4-3200Mhz RDIMM Memory",
+        "price": "\u00a3222.00",
+        "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/m/image_1.png",
+        "category": "Memory",
+        "Size/Capacity": "64GB",
+        "Memory Type": "DDR4 RDIMM",
+        "Speed": "3200 MHz",
+        "Pins": "288Starting from:  \u00a31,230.00 Configure"
+    },
+    {
+        "name": "Micron 16GB DDR4-3200Mhz UDIMM Memory",
+        "price": "\u00a358.80",
+        "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/m/image_1_1.png",
+        "category": "Memory",
+        "Size/Capacity": "16GB",
+        "Memory Type": "DDR4 UDIMM",
+        "Speed": "3200 MHz",
+        "Pins": "288Starting from:  \u00a31,230.00 Configure"
+    },
+    {
+        "name": "Micron 16GB DDR4-3200Mhz SODIMM Memory",
+        "price": "\u00a364.80",
+        "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/m/i/micron-ddr4-ecc-unbuffered-sodimm-2r8-mcw-c-550x550.jpg",
+        "category": "Memory",
+        "Size/Capacity": "16GB",
+        "Memory Type": "DDR4 ECC SODIMM",
+        "Speed": "3200 MHz",
+        "Pins": "288Starting from:  \u00a31,230.00 Configure"
+    },
+    {
+        "name": "Micron 32GB DDR4-3200Mhz SODIMM Memory",
+        "price": "\u00a3103.20",
+        "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/m/image_7_.png",
+        "category": "Memory",
+        "Size/Capacity": "32GB",
+        "Memory Type": "DDR4 ECC SODIMM",
+        "Speed": "3200 MHz",
+        "Pins": "288Starting from:  \u00a31,230.00 Configure"
+    },
+    {
+        "name": "Micron 16GB DDR4-3200Mhz RDIMM Memory",
+        "price": "\u00a370.80",
+        "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/m/image_1_1_3.png",
+        "category": "Memory",
+        "Size/Capacity": "16GB",
+        "Memory Type": "DDR4 ECC RDIMM",
+        "Speed": "3200 MHz",
+        "Pins": "288Starting from:  \u00a31,230.00 Configure"
+    },
+    {
+        "name": "Samsung 64GB DDR4 3200MHz ECC RDIMM",
+        "price": "\u00a3172.80",
+        "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/3/2/3263545-a_3.jpg",
+        "category": "Memory",
+        "Size/Capacity": "64GB",
+        "Memory Type": "DDR4 ECC RDIMM",
+        "Speed": "3200 MHz",
+        "Pins": "288Starting from:  \u00a31,230.00 Configure"
+    },
+    {
+        "name": "Samsung 16GB DDR4 3200MHz ECC RDIMM",
+        "price": "\u00a366.00",
+        "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/3/2/3263545-a_2.jpg",
+        "category": "Memory",
+        "Size/Capacity": "16GB",
+        "Memory Type": "DDR4 ECC RDIMM",
+        "Speed": "3200 MHz",
+        "Pins": "288Starting from:  \u00a31,230.00 Configure"
+    },
+    {
+        "name": "Samsung 32GB DDR4 3200MHZ ECC RDIMM",
+        "price": "\u00a390.00",
+        "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/3/2/3263545-a_1.jpg",
+        "category": "Memory",
+        "Size/Capacity": "32GB",
+        "Memory Type": "DDR4 ECC RDIMM",
+        "Speed": "3200 MHz",
+        "Pins": "288Starting from:  \u00a31,230.00 Configure"
+    },
+    {
+        "name": "Samsung 32GB DDR5 5600MHz ECC RDIMM",
+        "price": "\u00a3175.20",
+        "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/3/4/3493463-l-a.jpg",
+        "category": "Memory",
+        "Size/Capacity": "32GB",
+        "Memory Type": "DDR5 ECC RDIMM",
+        "Speed": "4800 MHz",
+        "Pins": "288Starting from:  \u00a31,230.00 Configure"
+    },
+    {
+        "name": "Samsung 16GB DDR5 4800Mhz ECC UDIMM",
+        "price": "\u00a370.80",
+        "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/3/4/3493463-l-a_2.jpg",
+        "category": "Memory",
+        "Size/Capacity": "16GB",
+        "Memory Type": "DDR5 ECC UDIMM",
+        "Speed": "4800 MHz",
+        "Pins": "288Starting from:  \u00a31,230.00 Configure"
+    },
+    {
+        "name": "Samsung 16GB DDR5 ECC RDIMM 4800MHz",
+        "price": "\u00a397.20",
+        "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/3/4/3493463-l-a_1_1.jpg",
+        "category": "Memory",
+        "Size/Capacity": "16GB",
+        "Memory Type": "DDR5 ECC RDIMM",
+        "Speed": "4800 MHz",
+        "Pins": "288Starting from:  \u00a31,230.00 Configure"
+    },
+    {
+        "name": "Micron 16GB DDR5 PC5 RDIMM 4800MHz",
+        "price": "\u00a3102.00",
+        "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/m/image_1_.png",
+        "category": "Memory",
+        "Size/Capacity": "16GB",
+        "Memory Type": "DDR5 ECC RDIMM",
+        "Speed": "4800 MHz",
+        "Pins": "288Starting from:  \u00a31,230.00 Configure"
+    },
+    {
+        "name": "Micron 32GB DDR5 PC5 RDIMM 4800MHz",
+        "price": "\u00a3148.80",
+        "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/m/image_2_.png",
+        "category": "Memory",
+        "Size/Capacity": "32GB",
+        "Memory Type": "DDR5 ECC RDIMM",
+        "Speed": "4800 MHz",
+        "Pins": "288Starting from:  \u00a31,230.00 Configure"
+    },
+    {
+        "name": "Micron 16GB DDR5 PC5 ECC UDIMM 4800MHz",
+        "price": "\u00a3114.00",
+        "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/m/image_1__1.png",
+        "category": "Memory",
+        "Size/Capacity": "16GB",
+        "Memory Type": "DDR5 ECC UDIMM",
+        "Speed": "4800 MHz",
+        "Pins": "288Starting from:  \u00a31,230.00 Configure"
+    },
+    {
+        "name": "Micron 32GB DDR5 PC5 ECC UDIMM 4800MHz",
+        "price": "\u00a3148.80",
+        "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/i/m/image_2__1.png",
+        "category": "Memory",
+        "Size/Capacity": "32GB",
+        "Memory Type": "DDR5 ECC UDIMM",
+        "Speed": "4800 MHz",
+        "Pins": "288Starting from:  \u00a31,230.00 Configure"
+    },
+    {
+        "name": "Samsung DDR5 32GB ECC UDIMM 4800 MHz Memory",
+        "price": "\u00a3176.40",
+        "img": "https://serverfactory.com/media/catalog/product/cache/1ae1d96446cbe90d8f2f7a109a236a77/4/2/4260751598423.jpg",
+        "category": "Memory",
+        "Size/Capacity": "N/A",
+        "Memory Type": "N/A",
+        "Speed": "N/A",
+        "Pins": "N/A"
+    }
        
 
 ];
@@ -647,69 +828,155 @@ function navigateToComponents(name) {
 }
    
 function displayFilteredProduct() {
-       console.log("somthing")
-       const productContainer = document.getElementById("product-container");
-   
-       if (!productContainer) {
-           console.error("Element with id 'product-container' not found.");
-           return;
-       }
-   
-       const queryString = window.location.search;
-       const urlParams = new URLSearchParams(queryString);
-       const productName = urlParams.get("name");
-       console.log("Product Name from URL:", productName);
-   
-       const product = products.find((p) => p.name === productName);
-   
-       if (!product) {
-           console.error("Product not found for name:", productName);
-           productContainer.innerHTML = "<p>Product not found.</p>";
-           return;
-       }
-   
-       productContainer.innerHTML = `
-           <div class="productimage">
-               <div class="productimage-left">
-                   <div class="image-wrapper">
-                       <img src="${product.img}" alt="${product.name}" class="main-image" />
-                       <div class="badge">Sale!</div>
-                   </div>
-               </div>
-               <div class="productimage-right">
-                   <h1>${product.name}</h1>
-                   <div class="rating"></div>
-                   <button class="add-to-cart">request a quotation</button>
-                   <div class="actions">
-                   </div>
-               </div>
-           </div>
-           <div class="productdescription">
-               <div class="tabs">
-                   <button class="tab-link active" onclick="openTab(event, 'description')">Description</button>
-                   <button class="tab-link" onclick="openTab(event, 'additional-info')">Additional Information</button>
-               </div>
-               <div id="description" class="tab-content active">
-                   <h2>Description</h2>
-                    <h4>${product.name}</h4>
-                   <p>${product["Key Features/Applications"]}</p>
-                   <h3>Storage Tips</h3>
-                   <h3>Unit</h3>
-                   <p>${product.url}</p>
-               </div>
-               <div id="additional-info" class="tab-content">
-                   <h2>Additional Information</h2>
-                   <table>
-                       <tr><th>CPU</th><td>${product.CPU}</td></tr>
-                       <tr><th>Drive</th><td>${product.Drive}</td></tr>
-                       <tr><th>Chassis</th><td>${product.Chassis}</td></tr>
-                       <tr><th>RAM</th><td>${product.RAM}</td></tr>
-                       <tr><th>Network Ports</th><td>${product["Network Ports"]}</td></tr>
-                       <tr><th>Price</th><td>${product.price}</td></tr>
-                   </table>
-               </div>
-           </div>
-       `;
-   }
-   
-   displayFilteredProduct()
+    console.log("something");
+    const productContainer = document.getElementById("product-container");
+
+    if (!productContainer) {
+        console.error("Element with id 'product-container' not found.");
+        return;
+    }
+
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const productName = urlParams.get("name");
+    console.log("Product Name from URL:", productName);
+
+    const product = products.find((p) => p.name === productName);
+
+    if (!product) {
+        console.error("Product not found for name:", productName);
+        productContainer.innerHTML = "<p>Product not found.</p>";
+        return;
+    }
+    console.log("Category of the product:", product.category);
+    if(product.category === "motherboards") {
+    productContainer.innerHTML = `
+        <div class="productimage">
+            <div class="productimage-left">
+                <div class="image-wrapper">
+                    <img src="${product.img}" alt="${product.name}" class="main-image" />
+                    <div class="badge">Sale!</div>
+                </div>
+            </div>
+            <div class="productimage-right">
+                <h1>${product.name}</h1>
+                <div class="rating"></div>
+                <button class="add-to-cart">request a quotation</button>
+                <div class="actions">
+                </div>
+            </div>
+        </div>
+        <div class="productdescription">
+            <div class="tabs">
+                <button class="tab-link active" onclick="openTab(event, 'description')">Description</button>
+                <button class="tab-link" onclick="openTab(event, 'additional-info')">Additional Information</button>
+            </div>
+            <div id="description" class="tab-content active">
+                <h2>Description</h2>
+                 <h4>${product["Processor"]}</h4>
+                <p>${product["Key Features/Applications"]}</p>
+                <h3>Storage Tips</h3>
+                <h3>Unit</h3>
+                <p>${product.url}</p>
+            </div>
+            <div id="additional-info" class="tab-content">
+                <h2>Additional Information</h2>
+                <table>
+                    <tr><th>Form Factor</th><td>${product["Form Factor"]}</td></tr>
+                    <tr><th>Processor</th><td>${product["Processor"]}</td></tr>
+                    <tr><th>Memory</th><td>${product["Memory"]}</td></tr>
+                    <tr><th>Expansion Slots</th><td>${product["Expansion Slots"]}</td></tr>
+                </table>
+            </div>
+        </div>
+    `;}
+
+    else if(product.category === "PROCESSORS") {
+        productContainer.innerHTML = `
+        <div class="productimage">
+            <div class="productimage-left">
+                <div class="image-wrapper">
+                    <img src="${product.img}" alt="${product.name}" class="main-image" />
+                    <div class="badge">Sale!</div>
+                </div>
+            </div>
+            <div class="productimage-right">
+                <h1>${product.name}</h1>
+                <div class="rating"></div>
+                <button class="add-to-cart">request a quotation</button>
+                <div class="actions">
+                </div>
+            </div>
+        </div>
+        <div class="productdescription">
+            <div class="tabs">
+                <button class="tab-link active" onclick="openTab(event, 'description')">Description</button>
+                <button class="tab-link" onclick="openTab(event, 'additional-info')">Additional Information</button>
+            </div>
+            <div id="description" class="tab-content active">
+                <h2>Description</h2>
+                 <h4>${product["Processor"]}</h4>
+                <p>${product["Key Features/Applications"]}</p>
+                <h3>Storage Tips</h3>
+                <h3>Unit</h3>
+                <p>${product.url}</p>
+            </div>
+            <div id="additional-info" class="tab-content">
+                <h2>Additional Information</h2>
+                <table>
+                    <tr><th>Total Cores</th><td>${product["Total Cores"]}</td></tr>
+                    <tr><th>Total Threads</th><td>${product["Total Threads"]}</td></tr>
+                    <tr><th>Max Turbo Frequency</th><td>${product["Max Turbo Frequency"]}</td></tr>
+                    <tr><th>Processor Base Frequency</th><td>${product["Processor Base Frequency"]}</td></tr>
+                    <tr><th>Cache</th><td>${product["Cache"]}</td></tr>
+                    <tr><th>Bus Speed</th><td>${product["Bus Speed"]}</td></tr>
+                </table>
+            </div>
+        </div>
+    `;
+}
+else if(product.category === "Memory"){
+    productContainer.innerHTML = `
+        <div class="productimage">
+            <div class="productimage-left">
+                <div class="image-wrapper">
+                    <img src="${product.img}" alt="${product.name}" class="main-image" />
+                    <div class="badge">Sale!</div>
+                </div>
+            </div>
+            <div class="productimage-right">
+                <h1>${product.name}</h1>
+                <div class="rating"></div>
+                <button class="add-to-cart">request a quotation</button>
+                <div class="actions">
+                </div>
+            </div>
+        </div>
+        <div class="productdescription">
+            <div class="tabs">
+                <button class="tab-link active" onclick="openTab(event, 'description')">Description</button>
+                <button class="tab-link" onclick="openTab(event, 'additional-info')">Additional Information</button>
+            </div>
+            <div id="description" class="tab-content active">
+                <h2>Description</h2>
+                 <h4>${product["Processor"]}</h4>
+                <p>${product["Key Features/Applications"]}</p>
+                <h3>Storage Tips</h3>
+                <h3>Unit</h3>
+                <p>${product.url}</p>
+            </div>
+            <div id="additional-info" class="tab-content">
+                <h2>Additional Information</h2>
+                <table>
+                    <tr><th>Size/Capacity</th><td>${product["Size/Capacity"]}</td></tr>
+                    <tr><th>Memory Type</th><td>${product[ "Memory Type"]}</td></tr>
+                    <tr><th>Speed</th><td>${product["Speed"]}</td></tr>
+                    <tr><th>Pins</th><td>${product["Pins"]}</td></tr>
+                </table>
+            </div>
+        </div>
+    `;
+    
+}}
+
+displayFilteredProduct();

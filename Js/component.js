@@ -810,60 +810,98 @@ const products = [
 
 
 
-
-
-
-
-
 function displayProducts() {
-       const queryString = window.location.search;
-       const urlParams = new URLSearchParams(queryString);
-       const category = urlParams.get('components');
-       console.log('Category from URL:', category);
-       console.log('test')
-   
-       const productListContainer = document.querySelector('.product-list');
-       productListContainer.innerHTML = ''; 
-   
-   
-       if (!category) {
-           productListContainer.innerHTML = '<p>Please select a valid category.</p>';
-           return;
-       }
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const category = urlParams.get('components');
+    console.log('Category from URL:', category);
+    console.log('test')
 
-       const filteredProducts = products.filter(product => product.category === category);
+    const productListContainer = document.querySelector('.product-list');
+    productListContainer.innerHTML = ''; 
 
+    if (!category) {
+        productListContainer.innerHTML = '<p>Please select a valid category.</p>';
+        return;
+    }
 
-       if (filteredProducts.length === 0) {
-           productListContainer.innerHTML = '<p>No products found for this category.</p>';
-           return;
-       }
+    const filteredProducts = products.filter(product => product.category === category);
 
+    if (filteredProducts.length === 0) {
+        productListContainer.innerHTML = '<p>No products found for this category.</p>';
+        return;
+    }
 
-       filteredProducts.forEach(product => {
+    filteredProducts.forEach(product => {
+        const productDiv = document.createElement('div');
+        productDiv.className = 'product1';
 
-        if (category === ""){
-            
-        }
-           const productDiv = document.createElement('div');
-           productDiv.className = 'product1';
-   
-           productDiv.innerHTML = `
-               <div class="imageProduct1">
+        // Conditionally structure the content based on the category
+        let productContent = '';
+        
+        if (category === 'Memory') {
+            productContent = `
+                 <div class="imageProduct1">
                    <img src="${product.img}" alt="${product.name}">
                </div>
                <div class="productContent">
                    <p>${product.name}</p>
-                   <p class="Chassis">Cores: ${product["Total Cores"]}</p>
+                   <p class="Chassis">Size/Capacity: ${product["Size/Capacity"]}</p>
                </div>
-               <div class="congigur" onclick="navigatecomponentDetails('${product.name}')">
+               <div class="configure" onclick="navigatecomponentDetails('${product.name}')">
                    Configure Now
                </div>
-           `;
-           productListContainer.appendChild(productDiv);
-       });
-   }
+           ;
+            `;
+        } else if (category === 'GPUs') {
+            // For GPUs: Display memory size and clock speed
+            productContent = `
+                <div class="imageProduct1">
+                    <img src="${product.img}" alt="${product.name}">
+                </div>
+                <div class="productContent">
+                    <p>${product.name}</p>
+                    <p class="MemorySize">Memory Size: ${product["Memory Size"]}</p>
+                    <p class="ClockSpeed">Clock Speed: ${product["Clock Speed"]}</p>
+                </div>
+                <div class="configure" onclick="navigatecomponentDetails('${product.name}')">
+                    Configure Now
+                </div>
+            `;
+        } else if (category === 'motherboards') {
+            productContent = `
+                 <div class="imageProduct1">
+                   <img src="${product.img}" alt="${product.name}">
+               </div>
+               <div class="productContent">
+                   <p>${product.name}</p>
+                    <p class="Chassis">Processor: ${product["Processor"]}</p>
+               </div>
+               <div class="configure" onclick="navigatecomponentDetails('${product.name}')">
+                   Configure Now
+               </div>
+           ;
+            `;
+        } else {
+            productContent = `
+                <div class="imageProduct1">
+                    <img src="${product.img}" alt="${product.name}">
+                </div>
+                <div class="productContent">
+                    <p>${product.name}</p>
+                    <p class="Chassis">Details: ${product[ "Total Cores"]}</p>
+                </div>
+                <div class="configure" onclick="navigatecomponentDetails('${product.name}')">
+                    Configure Now
+                </div>
+            `;
+        }
 
+        // Now set the content to the productDiv
+        productDiv.innerHTML = productContent;
+        productListContainer.appendChild(productDiv);
+    });
+}
 
 
 
