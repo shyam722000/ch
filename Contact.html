@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Server Factory</title>
+    <link rel="icon" type="image/x-icon" href="logo1.png">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,21 +27,17 @@
             });
         });
 
-    
-function navigateToProducts(name) {
-    window.location.href = `productlist.html?category=${encodeURIComponent(name)}`;
-}
 
-function navigateToComponents(name) {
-    window.location.href = `componentList.html?components=${encodeURIComponent(name)}`;
-}
-function navigateproductDetails(name) {
-    window.location.href = `productdetailPage.html?name=${encodeURIComponent(name)}`;
-}
+        function navigateToProducts(name) {
+            window.location.href = `productlist.html?category=${encodeURIComponent(name)}`;
+        }
 
-
-    
-
+        function navigateToComponents(name) {
+            window.location.href = `componentList.html?components=${encodeURIComponent(name)}`;
+        }
+        function navigateproductDetails(name) {
+            window.location.href = `productdetailPage.html?name=${encodeURIComponent(name)}`;
+        }
     </script>
 
 
@@ -57,49 +54,50 @@ function navigateproductDetails(name) {
 
 
     <!-- navBaar -->
-    
-       <!-- navBaar -->
-       <nav class="Nav_container">
+
+    <!-- navBaar -->
+    <nav class="Nav_container">
         <div class="Nav_logo">
             <a href="index.html"><img src="./logo1.png" alt="Logo"></a>
         </div>
         <div class="Nav_toggle">
-               <span>&#9776;</span>
+            <span>&#9776;</span>
         </div>
         <div class="Nav_links">
-               <ul>
-                      <li class="Nav_dropdown">
-                             <a href="#" class="Nav_dropbtn">Servers</a>
-                             <div class="Nav_dropdown-content">
-                                    <a onclick="navigateToProducts('rackmount')">Rackmount </a>
-                                    <a onclick="navigateToProducts('Storage Solutions')">Storage Servers</a>
-                                    <a onclick="navigateToProducts('liquid-cooling-servers')">Liquid Cooling Servers</a>
-                                    <a onclick="navigateToProducts('tower-servers-and-workstations')">Tower Servers and Workstations</a>
-                             </div>
-                      </li>
-                      <li class="Nav_dropdown">
-                             <a href="#" class="Nav_dropbtn">Components</a>
-                             <div class="Nav_dropdown-content">
-                                    <a onclick="navigateToComponents('motherboards')">Motherboard </a>
-                                    <a onclick="navigateToComponents('PROCESSOR')">Processors</a>
-                                    <a onclick="navigateToComponents('Memory')">Memory</a>
-                                    <a onclick="navigateToComponents('Graphics card')">Graphics card</a>
-                             </div>
-                      </li>
-                      
-                      <li class="Nav_dropdown">
-                             <a href="#" class="Nav_dropbtn">Solutions</a>
-                             <div class="Nav_dropdown-content">
-                                    <a onclick="navigateToProducts('Storage Solutions')">Storage Servers</a>
-                                    <a href="#">Cloud Solutions</a>
-                                    <a onclick="navigateToProducts('liquid-cooling-servers')">Liquid Cooling Servers</a>
-                             </div>
-                      </li>
-                      <li><a href="./About.html">About</a></li>
-                      <li><a href="./Contact.html">Contact</a></li>
-               </ul>
+            <ul>
+                <li class="Nav_dropdown">
+                    <a href="#" class="Nav_dropbtn">Servers</a>
+                    <div class="Nav_dropdown-content">
+                        <a onclick="navigateToProducts('rackmount')">Rackmount </a>
+                        <a onclick="navigateToProducts('Storage Solutions')">Storage Servers</a>
+                        <a onclick="navigateToProducts('liquid-cooling-servers')">Liquid Cooling Servers</a>
+                        <a onclick="navigateToProducts('tower-servers-and-workstations')">Tower Servers and
+                            Workstations</a>
+                    </div>
+                </li>
+                <li class="Nav_dropdown">
+                    <a href="#" class="Nav_dropbtn">Components</a>
+                    <div class="Nav_dropdown-content">
+                        <a onclick="navigateToComponents('motherboards')">Motherboard </a>
+                        <a onclick="navigateToComponents('PROCESSOR')">Processors</a>
+                        <a onclick="navigateToComponents('Memory')">Memory</a>
+                        <a onclick="navigateToComponents('Graphics card')">Graphics card</a>
+                    </div>
+                </li>
+
+                <li class="Nav_dropdown">
+                    <a href="#" class="Nav_dropbtn">Solutions</a>
+                    <div class="Nav_dropdown-content">
+                        <a onclick="navigateToProducts('Storage Solutions')">Storage Servers</a>
+                        <a href="#">Cloud Solutions</a>
+                        <a onclick="navigateToProducts('liquid-cooling-servers')">Liquid Cooling Servers</a>
+                    </div>
+                </li>
+                <li><a href="./About.html">About</a></li>
+                <li><a href="./Contact.html">Contact</a></li>
+            </ul>
         </div>
- </nav>
+    </nav>
 
 
 
@@ -144,8 +142,8 @@ function navigateproductDetails(name) {
 
 
 
-       <!-- footer -->
-       <div class="footer-main">
+    <!-- footer -->
+    <div class="footer-main">
         <div class="footer-content">
             <div class="footer-section">
                 <h3>About Us</h3>
@@ -155,10 +153,10 @@ function navigateproductDetails(name) {
             <div class="footer-section">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="/index.html">Home</a></li>
+                    <!-- <li><a href="#">Services</a></li> -->
+                    <li><a href="/About.html">About</a></li>
+                    <li><a href="/Contact.html">Contact</a></li>
                 </ul>
             </div>
             <div class="footer-section">
