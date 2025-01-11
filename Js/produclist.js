@@ -3,6 +3,10 @@ function displayProducts() {
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
     const category = urlParams.get('category');
+    const heading = document.querySelector('.catogory-list-sub .heading-cat');
+
+// Change the text content
+heading.textContent = category;
 
     console.log('Category from URL:', category);
     console.log('test')
