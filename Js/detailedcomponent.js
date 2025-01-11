@@ -947,7 +947,7 @@ else if(product.category === "Memory"){
             <div class="productimage-right">
                 <h1>${product.name}</h1>
                 <div class="rating"></div>
-                <button class="add-to-cart">request a quotation</button>
+                               <button class="add-to-cart" data-name="${product.name}" data-category=${product.category}">Request a Quotation</button>
                 <div class="actions">
                 </div>
             </div>
