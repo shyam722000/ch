@@ -15,7 +15,20 @@
 <body>
        <!-- landbar -->
 
+       <script>
+              // menubar open
+              document.addEventListener("DOMContentLoaded", () => {
+                     const navLinks = document.querySelector(".Nav_links ul");
+                     const toggleButton = document.querySelector(".Nav_toggle");
 
+                     toggleButton.addEventListener("click", () => {
+                            navLinks.classList.toggle("show");
+                     });
+              });
+
+       
+
+       </script>
 
        <!-- landbar -->
        <div>
