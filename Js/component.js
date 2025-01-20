@@ -817,6 +817,11 @@ function displayProducts() {
     console.log('Category from URL:', category);
     console.log('test')
 
+    const heading = document.querySelector('.catogory-list-sub .heading-cat');
+
+// Change the text content
+heading.textContent = category;
+
     const productListContainer = document.querySelector('.product-list');
     productListContainer.innerHTML = ''; 
 
@@ -902,6 +907,8 @@ function displayProducts() {
         productListContainer.appendChild(productDiv);
     });
 }
+
+
 
 
 
