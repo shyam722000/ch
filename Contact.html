@@ -10,10 +10,11 @@
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <script type="text/javascript"
-    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
     <!-- EmailJS Script -->
 </head>
 
@@ -41,7 +42,7 @@
         }
 
         // Initialize EmailJS
-        (function() {
+        (function () {
             emailjs.init("-vGUTkTNG20PZ86uf");  // Replace with your EmailJS user ID
         })();
 
@@ -59,12 +60,12 @@
                 name: name,
                 email: email,
                 message: message
-            }).then(function(response) {
+            }).then(function (response) {
                 console.log("Success", response);
                 alert("Your message has been sent successfully!");
                 // Optionally, reset the form
                 document.getElementById("contact-form").reset();
-            }).catch(function(error) {
+            }).catch(function (error) {
                 console.log("Error", error);
                 alert("Sorry, something went wrong. Please try again later.");
             });
@@ -88,7 +89,8 @@
                         <a onclick="navigateToProducts('rackmount')">Rackmount </a>
                         <a onclick="navigateToProducts('Storage Solutions')">Storage Servers</a>
                         <a onclick="navigateToProducts('liquid-cooling-servers')">Liquid Cooling Servers</a>
-                        <a onclick="navigateToProducts('tower-servers-and-workstations')">Tower Servers and Workstations</a>
+                        <a onclick="navigateToProducts('tower-servers-and-workstations')">Tower Servers and
+                            Workstations</a>
                     </div>
                 </li>
                 <li class="Nav_dropdown">
