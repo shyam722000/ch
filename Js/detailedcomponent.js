@@ -864,14 +864,7 @@ function displayFilteredProduct() {
                  <button class="add-to-cart" data-name="${product.name}" data-category=${product.category}">Request a Quotation</button>
                 <div class="actions">
                 </div>
-            </div>
-        </div>
-        <div class="productdescription">
-            <div class="tabs">
-                <button class="tab-link active" onclick="openTab(event, 'description')">Description</button>
-                <button class="tab-link" onclick="openTab(event, 'additional-info')">Additional Information</button>
-            </div>
-            <div id="description" class="tab-content active">
+                <div id="description" class="tab-content active">
                 <h2>Description</h2>
                  <h4>${product["Processor"]}</h4>
                 <p>${product["Key Features/Applications"]}</p>
@@ -879,7 +872,16 @@ function displayFilteredProduct() {
                 <h3>Unit</h3>
                 <p>${product.url}</p>
             </div>
-            <div id="additional-info" class="tab-content">
+            </div>
+            
+        </div>
+        <div class="productdescription">
+            <div class="tabs">
+               
+                <button class="tab-link" onclick="openTab(event, 'additional-info')">Additional Information</button>
+            </div>
+            
+            <div id="additional-info" class="tab-content"  style="display: block;">
                 <h2>Additional Information</h2>
                 <table>
                     <tr><th>Form Factor</th><td>${product["Form Factor"]}</td></tr>

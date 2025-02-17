@@ -19,6 +19,7 @@
     list-style: none;
     gap: 15px;
     margin: 0;
+    cursor: pointer;
     padding: 0;
 }
 
